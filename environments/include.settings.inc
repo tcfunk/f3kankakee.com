@@ -1,12 +1,6 @@
 <?php
 
-$environment = false;
-
-if (@getenv('LANDO') == 'ON' && file_exists(__DIR__ . '/lando/settings.php')) {
-  $environment = 'lando';
-} elseif (@getenv('ENV') == 'prod' && file_exists(__DIR__ . '/prod/settings.php')) {
-  $environment = 'prod';
-}
+include_once 'environment.inc';
 
 // Load environment settings and services.
 if ($environment) {
