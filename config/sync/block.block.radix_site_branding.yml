@@ -1,17 +1,17 @@
-uuid: 87014d58-f4d7-4993-acdd-e4f7c7e3bf81
+uuid: cded5744-1313-4bee-898b-e7de84931b70
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - rover
+    - radix
 _core:
-  default_config_hash: aAffCb48N18-6hdChZUM9QvUqEa9jlhtW7mvGdi4_9E
-id: rover_site_branding
-theme: rover
+  default_config_hash: MX2iS2rMC2lQ-sUFnOKksJ01S2lh0j5-80hKkdDmHkI
+id: radix_site_branding
+theme: radix
 region: header
-weight: -4
+weight: 0
 provider: null
 plugin: system_branding_block
 settings:

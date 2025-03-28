@@ -1,15 +1,15 @@
-uuid: bafb7a50-8643-480f-9375-b716beec9e76
+uuid: 1955f15e-e05d-41d9-8e8d-cd73d1d5ccba
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - rover
+    - f3k3
 _core:
-  default_config_hash: aHzgNPlOLx6f967q1lbnIx_yHv6L9BYJp6Lx7keA5uk
-id: rover_content
-theme: rover
+  default_config_hash: LHNf5BjvnW1nwWRS4ECgJZ--29cfOKm1gx5iSCmopow
+id: f3k3_content
+theme: f3k3
 region: content
 weight: -5
 provider: null

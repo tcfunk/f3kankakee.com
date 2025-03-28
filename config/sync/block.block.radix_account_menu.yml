@@ -1,4 +1,4 @@
-uuid: 6c24d93a-f44b-4e2f-85b2-64c5f8452241
+uuid: 733a47bb-ca8c-4230-b154-743dbc945f24
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - rover
+    - radix
 _core:
-  default_config_hash: 8j6ZytMeq0uHYWij3ixx7sDUmuiPuMVUPL-fp_mX6k4
-id: rover_useraccountmenu
-theme: rover
-region: user_menu
-weight: 0
+  default_config_hash: DxdLrNHPG9b5uQwKs4BJ9R5e8_jtJsQDY8rqliXtd9w
+id: radix_account_menu
+theme: radix
+region: navbar_branding
+weight: -4
 provider: null
 plugin: 'system_menu_block:account'
 settings:
@@ -22,6 +22,6 @@ settings:
   label_display: '0'
   provider: system
   level: 1
-  depth: 0
+  depth: 1
   expand_all_items: false
 visibility: {  }

@@ -1,4 +1,4 @@
-uuid: 7dd44078-0ed2-402f-b16b-be0648a5d267
+uuid: 0bedcd32-0501-4c8c-9762-f240cb2413d1
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - rover
+    - radix
 _core:
-  default_config_hash: '-fTg-gGkVXIRDj6f5f7TEY6yQZAi45iMCvwPSCeGprI'
-id: rover_main_menu
-theme: rover
-region: primary_menu
-weight: -4
+  default_config_hash: IYx37JlV-JCEqldSOUCsYu6gh4RpwuLDPpoeQcEF7mk
+id: radix_main_menu
+theme: radix
+region: navbar_branding
+weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:

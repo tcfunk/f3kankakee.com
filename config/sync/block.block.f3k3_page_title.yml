@@ -1,15 +1,15 @@
-uuid: 2c55cdac-ee72-47c6-ad7d-b715fc6b02e8
+uuid: 543e58e5-a239-411f-8269-5c1ab53d0398
 langcode: en
 status: true
 dependencies:
   theme:
-    - rover
+    - f3k3
 _core:
-  default_config_hash: PT2L7GHoJK3D1UVaHkrAgM-NSqNQbQ_rH24lxyrkKzg
-id: rover_page_title
-theme: rover
-region: content
-weight: -7
+  default_config_hash: 24tRNSg_YjLQts3NmtlECYXBz0_fcoDFRYDpawtVtAQ
+id: f3k3_page_title
+theme: f3k3
+region: header
+weight: -2
 provider: null
 plugin: page_title_block
 settings:

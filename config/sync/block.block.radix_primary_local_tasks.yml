@@ -1,15 +1,15 @@
-uuid: f0c2f2d7-bdc2-404a-80af-55df81a1b631
+uuid: fbcbd1b8-6d6e-453a-9f96-1314285274ef
 langcode: en
 status: true
 dependencies:
   theme:
-    - rover
+    - radix
 _core:
-  default_config_hash: sYLChOyaqAZ7O53z8Qdom0ClbPC6EYUQGfE65picjI0
-id: rover_primary_local_tasks
-theme: rover
-region: content
-weight: -6
+  default_config_hash: A_KsAw1fyIvdBubmxkvtCtoSuV62cVV-p0RSPnvqc9U
+id: radix_primary_local_tasks
+theme: radix
+region: navbar_branding
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

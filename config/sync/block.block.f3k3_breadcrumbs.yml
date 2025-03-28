@@ -1,17 +1,17 @@
-uuid: 332b96f7-ec85-48c4-aaa0-27e7785d4ca8
+uuid: d9063fea-2e32-48a2-8364-84c37439b4d0
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - rover
+    - f3k3
 _core:
-  default_config_hash: h6p7V-MXuYPXStTL_rRTHdTNR6mSXy08PgmxBwUYHiA
-id: rover_breadcrumbs
-theme: rover
-region: breadcrumb
-weight: -7
+  default_config_hash: kLJM2Swwc_nr7Sgk5NhJScENE5da91xOL2AVKSEkXno
+id: f3k3_breadcrumbs
+theme: f3k3
+region: header
+weight: -5
 provider: null
 plugin: system_breadcrumb_block
 settings:

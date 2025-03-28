@@ -17,6 +17,7 @@ module:
   captcha: 0
   ckeditor5: 0
   coffee: 0
+  components: 0
   config: 0
   content_moderation: 0
   contextual: 0
@@ -115,4 +116,7 @@ theme:
   olivero: 0
   easy_email_theme: 0
   drupal_cms_olivero: 0
-  rover: 0
+  stable9: 0
+  starterkit_theme: 0
+  radix: 0
+  f3k3: 0
