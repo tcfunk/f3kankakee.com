@@ -1,0 +1,5 @@
+# Schema for the configuration files of the f3k3 theme.
+
+f3k3.settings:
+  type: theme_settings
+  label: 'f3k3 settings'

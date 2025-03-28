@@ -1,0 +1,27 @@
+uuid: 7dd44078-0ed2-402f-b16b-be0648a5d267
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - rover
+_core:
+  default_config_hash: '-fTg-gGkVXIRDj6f5f7TEY6yQZAi45iMCvwPSCeGprI'
+id: rover_main_menu
+theme: rover
+region: primary_menu
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: d35068f5-55f6-473e-854e-9a463f49a708
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api_autocomplete.search.content_autocomplete
+  module:
+    - klaro
+    - media
+    - search_api_autocomplete
+    - system
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use klaro'
+  - 'use search_api_autocomplete for content_autocomplete'
+  - 'view media'

@@ -1,0 +1,22 @@
+uuid: 79d6f357-20a2-4c29-a424-6e28f6424f88
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rover
+_core:
+  default_config_hash: BsXvXYmdi-clBv1fEgafa5q8vHQaZTLF21B62OkRtZM
+id: rover_messages
+theme: rover
+region: breadcrumb
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

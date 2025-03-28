@@ -1,0 +1,22 @@
+uuid: f0c2f2d7-bdc2-404a-80af-55df81a1b631
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rover
+_core:
+  default_config_hash: sYLChOyaqAZ7O53z8Qdom0ClbPC6EYUQGfE65picjI0
+id: rover_primary_local_tasks
+theme: rover
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

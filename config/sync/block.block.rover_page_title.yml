@@ -1,0 +1,20 @@
+uuid: 2c55cdac-ee72-47c6-ad7d-b715fc6b02e8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rover
+_core:
+  default_config_hash: PT2L7GHoJK3D1UVaHkrAgM-NSqNQbQ_rH24lxyrkKzg
+id: rover_page_title
+theme: rover
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 13cd9536-79c3-4064-be46-3ebcb17ebd14
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rover
+_core:
+  default_config_hash: VrjpYgGRQvoqMm5SPb_4_e9juDyfjlQNypc0TdIIx9o
+id: rover_powered
+theme: rover
+region: footer
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

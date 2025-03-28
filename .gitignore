@@ -1,0 +1,11 @@
+vendor
+recipes
+web/core
+web/modules/contrib
+web/themes/contrib
+web/libraries
+web/sites/default/files
+web/sites/default/default.services.yml
+web/sites/default/default.settings.php
+environments/lando/settings.database.php
+environments/prod/settings.database.php
