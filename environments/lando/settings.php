@@ -9,7 +9,7 @@
  * that you leave this file alone.
  */
 
-include_once __DIR__ . './settings.database.php';
+include_once 'settings.database.php';
 
 // This will prevent Drupal from setting read-only permissions on sites/default.
 $settings['skip_permissions_hardening'] = TRUE;
@@ -48,7 +48,3 @@ $config['system.performance']['js']['preprocess'] = FALSE;
 $settings['rebuild_access'] = TRUE;
 $settings['skip_permissions_hardening'] = TRUE;
 
-/**
- * Load services definition file.
- */
-$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
