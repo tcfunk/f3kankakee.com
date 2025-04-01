@@ -4,12 +4,14 @@ status: true
 dependencies:
   config:
     - dashboard.dashboard.welcome
+    - filter.format.webform_default
     - search_api_autocomplete.search.content_autocomplete
   module:
     - captcha
     - coffee
     - dashboard
     - file
+    - filter
     - honeypot
     - klaro
     - media
@@ -30,6 +32,7 @@ permissions:
   - 'skip CAPTCHA'
   - 'use klaro'
   - 'use search_api_autocomplete for content_autocomplete'
+  - 'use text format webform_default'
   - 'view media'
   - 'view own unpublished content'
   - 'view welcome dashboard'

@@ -9,7 +9,7 @@ _core:
 id: f3k3_page_title
 theme: f3k3
 region: header
-weight: -2
+weight: 0
 provider: null
 plugin: page_title_block
 settings:

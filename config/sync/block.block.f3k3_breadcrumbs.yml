@@ -11,7 +11,7 @@ _core:
 id: f3k3_breadcrumbs
 theme: f3k3
 region: header
-weight: -5
+weight: -3
 provider: null
 plugin: system_breadcrumb_block
 settings:

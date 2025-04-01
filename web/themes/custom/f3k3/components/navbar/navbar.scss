@@ -1,0 +1,7 @@
+@import "../../src/scss/init";
+
+.navbar.justify-content-between {
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+}

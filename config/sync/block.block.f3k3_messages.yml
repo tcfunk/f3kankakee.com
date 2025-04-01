@@ -11,7 +11,7 @@ _core:
 id: f3k3_messages
 theme: f3k3
 region: header
-weight: -3
+weight: -1
 provider: null
 plugin: system_messages_block
 settings:
