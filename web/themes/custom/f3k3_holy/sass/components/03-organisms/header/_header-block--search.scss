@@ -1,0 +1,159 @@
+// HEADER - BLOCK -- search
+
+#header {
+  .block-search {
+    & > h2 {
+      display: none;
+    }
+
+    @media (max-width: $screen-sm-max) {
+      & {
+        position: relative;
+        margin: 0;
+        padding: 0 0 2rem 0;
+        vertical-align: middle;
+
+        div {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+
+        input {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+
+        span {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+
+        div.form-item {
+          width: calc(100% - 6rem);
+
+          .form-search {
+            box-sizing: border-box;
+            width: 100%;
+            height: 4rem;
+            padding: 0 0.8rem;
+          }
+
+          .form-search:focus {
+            &:focus {
+              border-color: $primary-light-color;
+            }
+          }
+        }
+
+        .form-submit {
+          overflow: hidden;
+          width: 5rem;
+          height: 4rem;
+          text-indent: 10rem;
+          border: 0;
+          background: url("../images/search-white.svg") no-repeat 50% 50%;
+          background-size: 3rem 3rem;
+          box-shadow: none !important;
+        }
+
+        .close-search {
+          display: none;
+        }
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      & {
+        position: relative;
+        display: block !important;
+        height: $navbar_height;
+        margin: 0;
+        vertical-align: middle;
+
+        form {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+
+        div {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+
+        input {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+
+        span {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+
+        .form-search {
+          visibility: hidden;
+          width: 0;
+          height: 4rem;
+          margin-top: 3.5rem;
+        }
+
+        .form-submit {
+          overflow: hidden;
+          width: 5rem;
+          height: 4rem;
+          text-indent: 10rem;
+          border: 0;
+          background: url("../images/search-black.svg") no-repeat 50% 50%;
+          background-size: 3rem 3rem;
+          box-shadow: none !important;
+        }
+
+        .close-search {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // header open
+  &.search-open {
+    .block-search {
+      @media (min-width: $screen-md-min) {
+        .form-search {
+          display: inline-block;
+          visibility: visible;
+          width: 35rem;
+          padding: 0 0.8rem;
+          transition: all 0.5s;
+        }
+
+        .close-search {
+          position: absolute;
+          top: 3rem;
+          left: -5.2rem;
+          display: inline-block;
+          overflow: hidden;
+          width: 5rem;
+          height: 5rem;
+          cursor: pointer;
+          text-indent: 10rem;
+          background: url("../images/search-close.svg") no-repeat 50% 50%;
+          background-size: 2rem 2rem;
+        }
+      }
+
+      @media (min-width: $screen-lg-min) {
+        .form-search {
+          width: 45rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+// HEADER - BLOCK -- branding
+
+#header {
+  .block-system-branding-block {
+    @media (max-width: $screen-sm-max) {
+      & {
+        display: none;
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      & {
+        height: $navbar_height;
+        margin: 0 auto 0 0;
+
+        a.logo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 100%;
+          text-decoration: none;
+
+          .image {
+            display: inline-block;
+            padding-right: 1rem;
+            vertical-align: top;
+
+            img {
+              width: 20rem;
+              height: auto;
+            }
+          }
+
+          .title {
+            display: inline-block;
+            vertical-align: top;
+
+            .site-name {
+              display: block;
+              color: $black;
+              font-size: 3.2rem;
+            }
+
+            .site-slogan {
+              display: block;
+              color: $black;
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

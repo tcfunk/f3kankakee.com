@@ -1,0 +1,55 @@
+<?php
+
+/**
+ * @file
+ * Style Guides - Video.
+ */
+?>
+<!-----------------------  $$name$$ ----------------------->
+
+<div id="sg-$$name$$" class="styleguide">
+
+<h2 class="styleguide-title">$$name$$</h2>
+
+<div class="sg-content">
+
+<div class="styleguide-item-preview">
+<video width="400" height="280" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+</video> 
+</div>
+
+<div class="styleguide-item-text uitabs">
+<ul>
+    <li><a href="#tabs-$$name$$-1">CSS</a></li>
+    <li><a href="#tabs-$$name$$-2">SCSS</a></li>
+    <li><a href="#tabs-$$name$$-3">HTML</a></li>
+</ul>
+
+<pre id="tabs-$$name$$-1">
+<code class="language-css">
+<?php include '$$css$$'; ?>
+</code>
+</pre>
+
+<pre id="tabs-$$name$$-2">
+<code class="language-scss">
+<?php include '$$scss$$'; ?>
+</code>
+</pre>
+
+<pre id="tabs-$$name$$-3">
+<code class="language-markup">
+&lt;video width="400" height="280" controls>
+    &lt;source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    &lt;source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+&lt;/video> 
+</code>
+</pre>
+
+</div>
+</div>
+</div>

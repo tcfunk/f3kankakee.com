@@ -1,0 +1,31 @@
+// blockquote
+
+blockquote {
+  margin: 0 0 1.6rem 0;
+}
+
+blockquote p {
+  margin: 0;
+  padding: 1.5rem;
+  background: $gray-4;
+}
+
+blockquote p:before {
+  margin-right: 0.1em;
+  content: "\201C";
+  vertical-align: -0.4em;
+  color: $gray-5;
+  font-family: georgia, times, sans-serif;
+  font-size: 3em;
+  line-height: 0.1em;
+}
+
+blockquote p:after {
+  margin-left: 0.1em;
+  content: "\201D";
+  vertical-align: -0.55em;
+  color: $gray-5;
+  font-family: georgia, times, sans-serif;
+  font-size: 3em;
+  line-height: 0.1em;
+}

@@ -1,0 +1,58 @@
+// tabs
+
+nav.tabs {
+  ul.tabs {
+    margin: 0 0 3rem 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 0.1rem solid $primary-color;
+
+    &:after {
+      display: block;
+      visibility: hidden;
+      clear: both;
+      height: 0;
+      content: ".";
+    }
+
+    li {
+      display: block;
+      float: left;
+      margin: 0 0.6rem 0 0;
+      padding: 0;
+      border: 0;
+
+      a {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 1rem 2rem;
+        border: 0;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+        background: $gray-5;
+      }
+
+      &.is-active a {
+        color: $white;
+        border: 0;
+        background-color: $primary-color;
+      }
+
+      &.is-active a:hover {
+        background-color: $primary-color;
+      }
+    }
+  }
+
+  @media (max-width: $screen-md-max) {
+    ul.tabs {
+      li {
+        a {
+          padding: 1rem;
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}

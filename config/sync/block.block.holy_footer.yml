@@ -1,0 +1,27 @@
+uuid: b0f7e80d-f6bf-48d5-ac77-c1d7967216db
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - holy
+_core:
+  default_config_hash: fF4TvhJ0OtKqE9LKY8R6uFNtyuMXYjIo0Y_PvvBIJh4
+id: holy_footer
+theme: holy
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: ''
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

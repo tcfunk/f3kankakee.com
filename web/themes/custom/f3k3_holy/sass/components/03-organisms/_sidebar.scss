@@ -1,0 +1,25 @@
+// sidebar
+
+.sidebar {
+  margin: 0 0 4rem 0;
+  color: $sidebar-text;
+  background: $sidebar-background;
+
+  .block {
+    margin-bottom: 6rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    & > h2 {
+      margin: 0 0 1.6rem 0;
+      padding: 1rem 1.5rem 1.8rem 1.5rem;
+      text-transform: uppercase;
+      color: $sidebar-block-title-text;
+      border-bottom: 0.2rem solid $sidebar-block-border;
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+  }
+}

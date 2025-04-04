@@ -1,0 +1,24 @@
+// html
+
+html {
+  font-family: "Raleway", sans-serif;
+  font-size: 62.5%;
+}
+
+@media (min-width: 2000px) {
+  html {
+    font-size: calc(62.5% * 1.5);
+  }
+}
+
+@media (min-width: 3000px) {
+  html {
+    font-size: calc(62.5% * 2);
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    // font-size: calc(62.5% * 0.8);
+  }
+}

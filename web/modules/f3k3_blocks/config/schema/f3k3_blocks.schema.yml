@@ -1,0 +1,7 @@
+block.settings.f3k3_blocks_hero:
+  type: block_settings
+  label: 'Hero block'
+  mapping:
+    example:
+      type: string
+      label: Example

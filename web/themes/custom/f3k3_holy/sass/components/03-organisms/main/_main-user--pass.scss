@@ -1,0 +1,36 @@
+// MAIN - USER -- pass
+
+#main {
+  .user-pass {
+    padding: 3rem;
+    border: 0.1rem solid $gray-5;
+    background: $gray-4;
+
+    label {
+      display: block;
+      margin: 0 0 0.8rem 0;
+    }
+
+    .form-text {
+      margin-bottom: 0.8rem;
+    }
+
+    .description {
+      margin-top: -0.8rem;
+    }
+
+    .form-item {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .form-actions {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}

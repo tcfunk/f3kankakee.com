@@ -1,0 +1,40 @@
+// table
+
+table {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-collapse: collapse;
+  border-top: 0.1rem solid $gray-2;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0.1rem solid $gray-2;
+}
+
+caption {
+  padding: 1rem 1.5rem;
+  text-align: left;
+  border-top: 0.1rem solid $gray-2;
+  border-right: 0.1rem solid $gray-2;
+  border-bottom: 0;
+  border-left: 0.1rem solid $gray-2;
+  font-weight: bold;
+}
+
+th {
+  padding: 1rem 1.5rem;
+  text-align: left;
+  border-top: 0;
+  border-right: 0.1rem solid $gray-2;
+  border-bottom: 0.1rem solid $gray-2;
+  border-left: 0;
+  background: $gray-4;
+  font-weight: bold;
+}
+
+td {
+  padding: 1rem 1.5rem;
+  border-top: 0;
+  border-right: 0.1rem solid $gray-2;
+  border-bottom: 0.1rem solid $gray-2;
+  border-left: 0;
+}

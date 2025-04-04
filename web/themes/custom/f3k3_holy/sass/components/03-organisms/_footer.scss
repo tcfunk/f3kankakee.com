@@ -1,0 +1,46 @@
+// footer
+
+#footer {
+  color: $footer-text;
+  background: $footer-background;
+
+  .block {
+    & > h2 {
+      margin-bottom: 1.5rem;
+      color: $white;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+
+  @media (max-width: $screen-sm-max) {
+    padding: 4rem 0 4rem 0;
+
+    .block {
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 0.1rem solid $gray-2;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    padding: 8rem 0 4rem 0;
+
+    .region-footer {
+      display: flex;
+      gap: 4rem;
+
+      .block {
+        flex: 1;
+
+        & > h2 {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

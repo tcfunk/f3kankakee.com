@@ -1,0 +1,71 @@
+// SIDEBAR - BLOCK -- menu
+
+.sidebar {
+  .block-menu {
+    @media (max-width: $screen-sm-max) {
+      & {
+        display: none;
+      }
+    }
+
+    @media (min-width: $screen-sm-min) {
+      ul.menu {
+        li {
+          a {
+            display: block;
+            padding: 1.5rem;
+            text-decoration: none;
+            color: $sidebar-menu-link;
+            border-bottom: 0.1rem solid $sidebar-menu-border;
+            background: $sidebar-menu-background;
+
+            &.is-active {
+              color: $sidebar-menu-link-active;
+              background: $sidebar-menu-background-active;
+              font-weight: bold;
+
+              &:hover {
+                color: $sidebar-menu-link-active-hover;
+                background: $sidebar-menu-background-active-hover;
+              }
+            }
+          }
+
+          // 2
+          ul {
+            li {
+              a {
+                padding-left: 4rem;
+              }
+            }
+
+            // 3
+            ul {
+              li {
+                a {
+                  padding-left: 6.5rem;
+                }
+              }
+
+              // 4
+              ul {
+                li {
+                  a {
+                    padding-left: 8rem;
+                  }
+                }
+              }
+            }
+          }
+
+          a:hover {
+            text-decoration: underline;
+            color: $sidebar-menu-link-hover;
+            background: $sidebar-menu-background-hover;
+          }
+
+        }
+      }
+    }
+  }
+}

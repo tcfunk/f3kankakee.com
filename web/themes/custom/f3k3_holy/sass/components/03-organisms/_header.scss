@@ -1,0 +1,35 @@
+// header
+
+#header {
+  background: $header-background;
+
+  @media (max-width: $screen-sm-max) {
+    .region-header {
+      display: flex;
+      flex-direction: column;
+
+      .block-language {
+        order: 3;
+      }
+
+      .block-search {
+        order: 2;
+      }
+
+      .block-menu {
+        order: 1;
+      }
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    position: relative;
+    height: $navbar_height;
+    color: $header-text;
+    background: $header-background;
+
+    .region-header {
+      display: flex;
+    }
+  }
+}

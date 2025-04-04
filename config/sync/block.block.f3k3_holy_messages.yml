@@ -1,0 +1,22 @@
+uuid: bcd5f26a-a3b9-4c6d-b744-f3796ded6b7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - f3k3_holy
+_core:
+  default_config_hash: 5ra2HNIksWbp6AhPpTufTGSlgx2FR7RR_ssxdjgFg4I
+id: f3k3_holy_messages
+theme: f3k3_holy
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

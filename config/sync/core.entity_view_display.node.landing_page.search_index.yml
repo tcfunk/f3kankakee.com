@@ -1,0 +1,30 @@
+uuid: 74a5d5a6-dec3-4a57-840a-5cdac40e370b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.landing_page.field_content
+    - node.type.landing_page
+  module:
+    - text
+    - user
+id: node.landing_page.search_index
+targetEntityType: node
+bundle: landing_page
+mode: search_index
+content:
+  field_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  search_api_excerpt: true

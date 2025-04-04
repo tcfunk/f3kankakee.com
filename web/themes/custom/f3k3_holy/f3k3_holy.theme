@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Short text for language switcher.
+ */
+
+/**
+ * Implements f3k3_holy_preprocess_links__language_block.
+ */
+function f3k3_holy_preprocess_links__language_block(&$variables) {
+  $variables['links']['en']['link']['#title'] = 'EN';
+  $variables['links']['cs']['link']['#title'] = 'CZ';
+}
+
+/**
+ * Implements hook_theme_suggestions_page_alter().
+ */
+function f3k3_holy_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    $suggestions[] = 'page__' . $node->bundle();
+  }
+}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function f3k3_holy_preprocess_page(&$variables) {
+  if (isset($variables['node'])) {
+    if ($variables['node']->hasField('layout_builder__layout')) {
+      $variables['has_page_layout'] = !empty($variables['node']->get('layout_builder__layout')->getSections());
+    }
+  }
+}

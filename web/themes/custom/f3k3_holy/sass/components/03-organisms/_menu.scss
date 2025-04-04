@@ -1,0 +1,13 @@
+// menu
+
+#menu {
+  @media (max-width: $screen-sm-max) {
+    color: $menu-mobile-text;
+    background: $menu-mobile-background;
+  }
+
+  @media (min-width: $screen-md-min) {
+    color: $menu-text;
+    background: $menu-background;
+  }
+}

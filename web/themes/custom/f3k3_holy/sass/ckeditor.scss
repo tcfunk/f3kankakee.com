@@ -1,0 +1,26 @@
+// CKEDITOR
+
+@import 'fonts';
+@import 'variables';
+@import 'global';
+@import 'class';
+@import 'color';
+
+// ck 4
+.cke_editable {
+  padding: 25px;
+  @import 'components/01-atoms/**/*';
+}
+
+// ck 5
+.ck-editor {
+  .ck-content {
+    padding: 25px !important;
+    min-height: 150px;
+    & > :first-child {
+      margin-top: 0 !important;
+    }
+  }
+
+  @import 'components/01-atoms/**/*';
+}

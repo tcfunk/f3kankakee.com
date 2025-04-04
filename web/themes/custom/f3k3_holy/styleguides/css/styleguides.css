@@ -1,0 +1,156 @@
+/* box model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* focus */
+*:focus {
+  outline: 0;
+}
+
+body.styleguide-body {
+  padding: 0 40px 40px 320px;
+  background: #272727;
+}
+
+/* title */
+h2.styleguide-title {
+  margin: 0;
+  padding: 30px 0 30px 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h3.styleguide-title {
+  margin: 0 0 30px 0;
+  padding: 0;
+  color: #1379a7;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* styleguide content */
+.sg-content {
+  display: flex;
+  /* ui tabs */
+}
+
+.sg-content ul.ui-tabs-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sg-content ul.ui-tabs-nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1;
+}
+
+.sg-content ul.ui-tabs-nav li a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #000;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.sg-content ul.ui-tabs-nav li.ui-state-active a {
+  background: #f5f2f0;
+}
+
+/* styleguide menu */
+#styleguide-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  width: 280px;
+  height: 100%;
+  color: #fff;
+  background: #303030;
+  font-family: sans-serif;
+}
+
+#styleguide-menu ul.menu {
+  margin: 0;
+  padding: 0;
+}
+
+#styleguide-menu ul.menu li {
+  margin: 0;
+  padding: 0;
+}
+
+#styleguide-menu ul.menu li:first-child {
+  margin-top: 10px;
+}
+
+#styleguide-menu ul.menu li:last-child {
+  margin-bottom: 10px;
+}
+
+#styleguide-menu ul.menu li a {
+  display: block;
+  padding: 3px 15px 3px 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#styleguide-menu ul.menu li a.active {
+  color: #1379a7;
+}
+
+/* styleguide */
+.styleguide {
+  margin-bottom: 10px;
+}
+
+.styleguide-item-preview {
+  width: 50%;
+  padding: 40px;
+  background: #fff;
+}
+
+.styleguide-item-text {
+  width: 50%;
+  padding: 40px 30px 30px 30px;
+  background: #c0c0c0;
+}
+
+.sg-content-horizontal {
+  display: block;
+}
+
+.sg-content-horizontal .styleguide-item-preview {
+  width: auto;
+}
+
+.sg-content-horizontal .styleguide-item-text {
+  width: auto;
+}
+
+/* color */
+.styleguide-color-box {
+  display: inline-block;
+  width: 200px;
+  margin: 0 20px 20px 0;
+  border: 2px solid #fff;
+}
+
+.styleguide-color-box .color {
+  height: 120px;
+  padding: 10px;
+  color: #fff;
+}
+
+.styleguide-color-box .info {
+  padding: 10px 10px;
+  line-height: 1.5;
+}

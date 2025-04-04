@@ -1,0 +1,11 @@
+// video 
+
+video {
+  background: $black;
+}
+
+@media (max-width: 45rem) {
+  video {
+    width: 100% !important;
+  }
+}

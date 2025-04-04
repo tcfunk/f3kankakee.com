@@ -1,0 +1,69 @@
+<?php
+
+/**
+ * @file
+ * Style Guides - tabs.
+ */
+?>
+<!-----------------------  $$name$$ ----------------------->
+
+<div id="sg-$$name$$" class="styleguide">
+
+<h2 class="styleguide-title">$$name$$</h2>
+
+<div class="sg-content">
+
+<div class="styleguide-item-preview">
+<div id="block-holy-local-tasks" class="block block-core block-local-tasks-block">
+    <nav class="tabs" role="navigation" aria-label="Záložky">
+        <h2 class="visually-hidden">Hlavní záložky</h2>
+        <ul class="tabs primary">
+            <li class="is-active"><a href="" data-drupal-link-system-path="" class="is-active">Zobrazit<span class="visually-hidden">(aktivní záložka)</span></a></li>
+            <li><a href="" data-drupal-link-system-path="">Upravit</a></li>
+            <li><a href="" data-drupal-link-system-path="">Smazat</a></li>
+            <li><a href="" data-drupal-link-system-path="">Revize</a></li>
+            <li><a href="" data-drupal-link-system-path="">Devel</a></li>
+        </ul>
+    </nav>
+</div>
+</div>
+
+<div class="styleguide-item-text uitabs">
+<ul>
+    <li><a href="#tabs-$$name$$-1">CSS</a></li>
+    <li><a href="#tabs-$$name$$-2">SCSS</a></li>
+    <li><a href="#tabs-$$name$$-3">HTML</a></li>
+</ul>
+
+<pre id="tabs-$$name$$-1">
+<code class="language-css">
+<?php include '$$css$$'; ?>
+</code>
+</pre>
+
+<pre id="tabs-$$name$$-2">
+<code class="language-scss">
+<?php include '$$scss$$'; ?>
+</code>
+</pre>
+
+<pre id="tabs-tabs-3">
+<code class="language-markup">
+&lt;div id="block-holy-local-tasks" class="block block-core block-local-tasks-block">
+    &lt;nav class="tabs" role="navigation" aria-label="Záložky">
+        &lt;h2 class="visually-hidden">Hlavní záložky&lt;/h2>
+        &lt;ul class="tabs primary">
+            &lt;li class="is-active">&lt;a href="/" data-drupal-link-system-path="/" class="is-active">Zobrazit&lt;span class="visually-hidden">(aktivní záložka)&lt;/span>&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="/" data-drupal-link-system-path="/">Upravit&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="/" data-drupal-link-system-path="/">Smazat&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="/" data-drupal-link-system-path="/">Revize&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="/" data-drupal-link-system-path="/">Devel&lt;/a>&lt;/li>
+        &lt;/ul>
+    &lt;/nav>
+&lt;/div>
+</code>
+</pre>
+
+</div>
+</div>
+</div>

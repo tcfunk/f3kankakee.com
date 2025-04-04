@@ -1,0 +1,115 @@
+<?php
+
+/**
+ * @file
+ * Style Guides - pager.
+ */
+?>
+<!-----------------------  $$name$$ ----------------------->
+
+<div id="sg-$$name$$" class="styleguide">
+
+<h2 class="styleguide-title">$$name$$</h2>
+
+<div class="sg-content">
+
+<div class="styleguide-item-preview">
+<nav class="pager" role="navigation" aria-labelledby="pagination-heading">
+    <h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
+    <ul class="pager__items js-pager__items">
+        <li class="pager__item is-active">
+            <a href="?page=0" title="Aktuální stránka">
+                <span class="visually-hidden">
+                    Aktuální stránka
+                </span>1</a>
+        </li>
+        <li class="pager__item">
+            <a href="?page=1" title="Go to page 2">
+                <span class="visually-hidden">
+                    Stránka
+                </span>2</a>
+        </li>
+        <li class="pager__item">
+            <a href="?page=2" title="Go to page 3">
+                <span class="visually-hidden">
+                    Stránka
+                </span>3</a>
+        </li>
+        <li class="pager__item pager__item--next">
+            <a href="?page=1" title="Přejít na další stranu" rel="next">
+                <span class="visually-hidden">Následující stránka</span>
+                <span aria-hidden="true">Další ›</span>
+            </a>
+        </li>
+        <li class="pager__item pager__item--last">
+            <a href="?page=2" title="Přejít na poslední stranu">
+                <span class="visually-hidden">Poslední stránka</span>
+                <span aria-hidden="true">Poslední »</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+</div>
+
+<div class="styleguide-item-text uitabs">
+<ul>
+    <li><a href="#tabs-$$name$$-1">CSS</a></li>
+    <li><a href="#tabs-$$name$$-2">SCSS</a></li>
+    <li><a href="#tabs-$$name$$-3">HTML</a></li>
+</ul>
+
+<pre id="tabs-$$name$$-1">
+<code class="language-css">
+<?php include '$$css$$'; ?>
+</code>
+</pre>
+
+<pre id="tabs-$$name$$-2">
+<code class="language-scss">
+<?php include '$$scss$$'; ?>
+</code>
+</pre>
+
+<pre id="tabs-pager-3">
+<code class="language-markup">
+&lt;nav class="pager" role="navigation" aria-labelledby="pagination-heading">
+    &lt;h4 id="pagination-heading" class="visually-hidden">Pagination&lt;/h4>
+    &lt;ul class="pager__items js-pager__items">
+        &lt;li class="pager__item is-active">
+            &lt;a href="?page=0" title="Aktuální stránka">
+                &lt;span class="visually-hidden">
+                    Aktuální stránka
+                &lt;/span>1&lt;/a>
+        &lt;/li>
+        &lt;li class="pager__item">
+            &lt;a href="?page=1" title="Go to page 2">
+                &lt;span class="visually-hidden">
+                    Stránka
+                &lt;/span>2&lt;/a>
+        &lt;/li>
+        &lt;li class="pager__item">
+            &lt;a href="?page=2" title="Go to page 3">
+                &lt;span class="visually-hidden">
+                    Stránka
+                &lt;/span>3&lt;/a>
+        &lt;/li>
+        &lt;li class="pager__item pager__item--next">
+            &lt;a href="?page=1" title="Přejít na další stranu" rel="next">
+                &lt;span class="visually-hidden">Následující stránka&lt;/span>
+                &lt;span aria-hidden="true">Další ›&lt;/span>
+            &lt;/a>
+        &lt;/li>
+        &lt;li class="pager__item pager__item--last">
+            &lt;a href="?page=2" title="Přejít na poslední stranu">
+                &lt;span class="visually-hidden">Poslední stránka&lt;/span>
+                &lt;span aria-hidden="true">Poslední »&lt;/span>
+            &lt;/a>
+        &lt;/li>
+    &lt;/ul>
+&lt;/nav>
+</code>
+</pre>
+
+</div>
+</div>
+</div>

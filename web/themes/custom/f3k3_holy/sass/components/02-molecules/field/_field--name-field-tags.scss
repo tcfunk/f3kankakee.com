@@ -1,0 +1,23 @@
+// FIELD -- name field tags
+
+.field--name-field-tags {
+  .field__items {
+    display: inline-block;
+    border: 0.1rem solid $gray-4;
+    border-radius: 0.5rem;
+
+    .field__item {
+      display: inline-block;
+      border-right: 0.1rem solid $gray-4;
+    }
+
+    .field__item:last-child {
+      border-right: 0;
+    }
+
+    .field__item a {
+      display: inline-block;
+      padding: 1rem;
+    }
+  }
+}

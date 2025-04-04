@@ -1,0 +1,65 @@
+// HEADER - BLOCK -- language
+
+#header {
+  .block-language {
+    h2 {
+      display: none;
+    }
+
+    ul.links {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: inline-block;
+        margin: 0;
+        padding: 0 1.5rem;
+        list-style: none;
+
+        &.is-active {
+          display: none;
+        }
+
+        a {
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
+    }
+
+    @media (max-width: $screen-sm-max) {
+      & {
+        margin: 0;
+        padding: 0 0 2rem 2rem;
+
+        ul.links {
+          li {
+            padding: 0 1.5rem 0 0;
+          }
+        }
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      & {
+        height: $navbar_height;
+        margin: 0;
+
+        li {
+          display: block;
+          float: left;
+          height: $navbar_height;
+          margin: 0;
+          padding: 0 2.5rem 0 2.5rem;
+          white-space: nowrap;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: $body-text;
+          font-weight: 800;
+          line-height: $navbar_height;
+        }
+      }
+    }
+  }
+}

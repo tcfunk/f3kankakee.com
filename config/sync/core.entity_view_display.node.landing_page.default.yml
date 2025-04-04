@@ -1,0 +1,29 @@
+uuid: dedbc9c0-7b8c-4deb-9b0c-47a0709b754e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_page.field_content
+    - node.type.landing_page
+  module:
+    - text
+    - user
+id: node.landing_page.default
+targetEntityType: node
+bundle: landing_page
+mode: default
+content:
+  field_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  search_api_excerpt: true

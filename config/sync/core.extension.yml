@@ -12,6 +12,7 @@ module:
   better_exposed_filters: 0
   big_pipe: 0
   block: 0
+  block_content: 0
   bpmn_io: 0
   breakpoint: 0
   captcha: 0
@@ -22,6 +23,7 @@ module:
   content_moderation: 0
   contextual: 0
   crop: 0
+  ctools: 0
   dashboard: 0
   date_augmenter: 0
   datetime: 0
@@ -40,6 +42,8 @@ module:
   eca_ui: 0
   eca_user: 0
   editor: 0
+  entity_reference_revisions: 0
+  f3k3_blocks: 0
   field: 0
   field_ui: 0
   file: 0
@@ -52,6 +56,7 @@ module:
   geocoder_geofield: 0
   geofield: 0
   gin_toolbar: 0
+  gutenberg: 0
   help: 0
   honeypot: 0
   image: 0
@@ -78,6 +83,7 @@ module:
   options: 0
   package_manager: 0
   page_cache: 0
+  paragraph_blocks: 0
   path: 0
   path_alias: 0
   project_browser: 0
@@ -112,6 +118,7 @@ module:
   pathauto: 1
   selective_better_exposed_filters: 1
   views: 10
+  paragraphs: 11
 theme:
   claro: 0
   gin: 0
@@ -120,5 +127,5 @@ theme:
   drupal_cms_olivero: 0
   stable9: 0
   starterkit_theme: 0
-  radix: 0
-  f3k3: 0
+  f3k3_holy: 0
+  holy: 0

@@ -1,0 +1,22 @@
+uuid: c78d5374-c4d1-4a46-a999-9621a5c9465e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - f3k3_holy
+_core:
+  default_config_hash: 5VBXsyvJSTQNtrh86WK8GN_FCaRtK03D1fjfZQnUvtU
+id: f3k3_holy_powered
+theme: f3k3_holy
+region: copyright
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

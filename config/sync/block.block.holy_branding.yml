@@ -1,0 +1,25 @@
+uuid: 173e4e85-219f-4647-a0af-911f06c8e42f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - holy
+_core:
+  default_config_hash: ZRnir6USb4L2v0MUl9MvAjTkvgjVXvxter4l2DfHjRc
+id: holy_branding
+theme: holy
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: ''
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

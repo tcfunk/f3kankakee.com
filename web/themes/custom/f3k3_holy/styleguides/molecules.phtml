@@ -1,0 +1,85 @@
+<?php
+
+/**
+ * @file
+ * Style Guides - molecules.
+ */
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Style Guide - Molecules</title>
+    <?php include 'include/meta.php'; ?>
+    <?php include 'include/link-core.php'; ?>
+    <?php include 'include/link-sg.php'; ?>
+    <?php include 'include/link.php'; ?>
+    <?php include 'include/script.php'; ?>
+</head>
+
+<body class="styleguide-body">
+
+<div id="styleguide-menu">
+    <ul class="menu">
+        <li>
+            <a href="index.phtml">Drupal</a>
+        </li>
+        <li>
+            <a href="base.phtml">00<span> - Base</span></a>
+        </li>
+        <li>
+            <a href="atoms.phtml">01<span> - Atoms</span></a>
+        </li>
+        <li>
+            <a href="molecules.phtml" class="active">02<span> - Molecules</span></a>
+            <ul>
+                <!-- inject:list -->
+                <li><a href="#sg-block" class="skip">block</a></li>
+                <li><a href="#sg-field" class="skip">field</a></li>
+                <li><a href="#sg-form" class="skip">form</a></li>
+                <li><a href="#sg-menu" class="skip">menu</a></li>
+                <li><a href="#sg-messages" class="skip">messages</a></li>
+                <li><a href="#sg-node" class="skip">node</a></li>
+                <li><a href="#sg-pager" class="skip">pager</a></li>
+                <li><a href="#sg-tabs" class="skip">tabs</a></li>
+                <li><a href="#sg-view" class="skip">view</a></li>
+                <li><a href="#sg-block--breadcrumb" class="skip">block--breadcrumb</a></li>
+                <li><a href="#sg-field--name-field-tags" class="skip">field--name-field-tags</a></li>
+                <li><a href="#sg-field--name-title" class="skip">field--name-title</a></li>
+                <li><a href="#sg-field--type-comment" class="skip">field--type-comment</a></li>
+                <li><a href="#sg-field--type-image" class="skip">field--type-image</a></li>
+                <!-- endinject -->
+            </ul>
+        </li>
+        <li>
+            <a href="organisms.phtml">03<span> - Organisms</span></a>
+        </li>
+        <li>
+            <a href="layouts.phtml">04<span> - Layouts</span></a>
+        </li>            
+        <li>
+            <a href="pages.phtml">05<span> - Pages</span></a>
+        </li> 
+    </ul>
+</div>
+
+<div id="sg-molecules">
+<!-- inject:content -->
+<?php include "code/components/02-molecules/block.phtml"; ?>
+<?php include "code/components/02-molecules/field.phtml"; ?>
+<?php include "code/components/02-molecules/form.phtml"; ?>
+<?php include "code/components/02-molecules/menu.phtml"; ?>
+<?php include "code/components/02-molecules/messages.phtml"; ?>
+<?php include "code/components/02-molecules/node.phtml"; ?>
+<?php include "code/components/02-molecules/pager.phtml"; ?>
+<?php include "code/components/02-molecules/tabs.phtml"; ?>
+<?php include "code/components/02-molecules/view.phtml"; ?>
+<?php include "code/components/02-molecules/block/block--breadcrumb.phtml"; ?>
+<?php include "code/components/02-molecules/field/field--name-field-tags.phtml"; ?>
+<?php include "code/components/02-molecules/field/field--name-title.phtml"; ?>
+<?php include "code/components/02-molecules/field/field--type-comment.phtml"; ?>
+<?php include "code/components/02-molecules/field/field--type-image.phtml"; ?>
+<!-- endinject -->
+</div>
+
+</body>
+</html>

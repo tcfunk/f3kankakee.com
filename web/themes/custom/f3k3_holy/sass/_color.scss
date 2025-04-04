@@ -1,0 +1,35 @@
+// color
+
+/* background */
+.bg-white {
+    background: $white; 
+}
+.bg-black {
+    background: $black; 
+}
+.bg-primary {
+    background: $primary-color; 
+}
+.bg-primary-light {
+    background: $primary-light-color; 
+}
+.bg-primary-dark {
+    background: $primary-dark-color; 
+}
+
+/* text */
+.text-white {
+    color: $white; 
+}
+.text-black {
+    color: $black; 
+}
+.text-primary {
+    color: $primary-color; 
+}
+.text-primary-light {
+    color: $primary-light-color; 
+}
+.text-primary-dark {
+    color: $primary-dark-color; 
+}

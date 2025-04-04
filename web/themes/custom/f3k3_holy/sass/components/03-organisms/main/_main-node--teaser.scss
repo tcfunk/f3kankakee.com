@@ -1,0 +1,33 @@
+// MAIN - NODE -- teaser
+
+#main {
+  .node--view-mode-teaser {
+    h2.title {
+      padding: 0;
+    }
+
+    .readmore {
+      padding-top: 0;
+
+      a {
+        display: inline-block;
+        color: $primary-color;
+      }
+    }
+
+    @media (min-width: $screen-xs-min) {
+      & {
+        display: flex;
+        gap: 3rem;
+
+        .left {
+          flex: 1;
+        }
+
+        .right {
+          flex: 2.7;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+// HERO - BLOCK -- page title
+
+#hero {
+  .block-page-title-block {
+    h1 {
+      margin: 0;
+      text-align: center;
+      color: $hero-title-text;
+      line-height: 1.2;
+    }
+
+    @media (max-width: $screen-sm-max) {
+      h1 {
+        padding: 3rem 0;
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      h1 {
+        padding: 5rem 0;
+      }
+    }
+  }
+
+  .block-f3k3-blocks-hero {
+    padding: 4rem 0;
+
+    &::before {
+      content: '';
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      background: $hero-background;
+      opacity: 0.5;
+      z-index: 2;
+    }
+
+    img {
+      height: 100%;
+      left: 0;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .hero-content {
+      z-index: 3;
+
+      h2, h3, p {
+        color: $hero-title-text;
+      }
+    }
+  }
+}

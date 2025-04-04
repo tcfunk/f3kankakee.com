@@ -1,0 +1,79 @@
+// title
+
+h1 {
+  font-family: "Stardos Stencil", cursive;
+  font-weight: 700;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: $h1-font-size;
+  font-weight: 600;
+  line-height: 1.1;
+
+  @media (max-width: $screen-sm-max) {
+    & {
+      font-size: $h1-font-size-mobile;
+    }
+  }
+}
+
+h2 {
+  margin: 0 0 0.8rem 0;
+  padding: 1.6rem 0 0 0;
+  color: $primary-color;
+  font-size: $h2-font-size;
+  font-weight: normal;
+  line-height: 1.1;
+
+  @media (max-width: $screen-sm-max) {
+    & {
+      font-size: $h2-font-size-mobile;
+    }
+  }
+}
+
+h3 {
+  margin: 0 0 0.8rem 0;
+  padding: 1.6rem 0 0 0;
+  color: $black;
+  font-size: $h3-font-size;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+h4 {
+  margin: 0 0 0.8rem 0;
+  padding: 1.6rem 0 0 0;
+  color: $black;
+  font-size: $h4-font-size;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+h5 {
+  margin: 0 0 0.8rem 0;
+  padding: 1.6rem 0 0 0;
+  color: $black;
+  font-size: $h5-font-size;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+h6 {
+  margin: 0 0 0.8rem 0;
+  padding: 1.6rem 0 0 0;
+  font-size: $h6-font-size;
+  font-weight: bold;
+  line-height: 1.1;
+}

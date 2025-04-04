@@ -1,0 +1,15 @@
+// copyright
+
+#copyright {
+  padding: 2.5rem 0 5rem 0;
+  color: $copy-text;
+  background: $copy-background;
+
+  .block {
+    text-align: center;
+
+    & > h2 {
+      display: none;
+    }
+  }
+}

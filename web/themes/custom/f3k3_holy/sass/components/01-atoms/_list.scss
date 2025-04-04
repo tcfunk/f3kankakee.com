@@ -1,0 +1,33 @@
+// list
+
+ul {
+  margin: 0 0 1.6rem 0;
+  padding: 0.2rem 0 0.2rem 1.5rem;
+
+  li {
+    margin: 0.6rem 0 0.6rem 0;
+    list-style-position: outside;
+    line-height: 1.5;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0 0 0 2rem;
+  }
+}
+
+ol {
+  margin: 0 0 1.6rem 0;
+  padding: 0.2rem 0 0.2rem 1.5rem;
+
+  li {
+    margin: 0.6rem 0 0.6rem 0;
+    list-style-position: outside;
+    line-height: 1.5;
+  }
+
+  ol {
+    margin: 0;
+    padding: 0 0 0 2rem;
+  }
+}

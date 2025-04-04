@@ -1,0 +1,105 @@
+<?php
+
+/**
+ * @file
+ * Style Guides - organisms.
+ */
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Style Guide - Organisms</title>
+    <?php include 'include/meta.php'; ?>
+    <?php include 'include/link-core.php'; ?>
+    <?php include 'include/link-sg.php'; ?>
+    <?php include 'include/link.php'; ?>
+    <?php include 'include/script.php'; ?>
+</head>
+
+<body class="styleguide-body">
+
+<div id="styleguide-menu">
+    <ul class="menu">
+        <li>
+            <a href="index.phtml">Drupal</a>
+        </li>
+        <li>
+            <a href="base.phtml">00<span> - Base</span></a>
+        </li>
+        <li>
+            <a href="atoms.phtml">01<span> - Atoms</span></a>
+        </li>
+        <li>
+            <a href="molecules.phtml">02<span> - Molecules</span></a>
+        </li>
+        <li>
+            <a href="organisms.phtml" class="active">03<span> - Organisms</span></a>
+            <ul>
+                <!-- inject:list -->
+                <li><a href="#sg-copyright" class="skip">copyright</a></li>
+                <li><a href="#sg-footer" class="skip">footer</a></li>
+                <li><a href="#sg-header" class="skip">header</a></li>
+                <li><a href="#sg-hero" class="skip">hero</a></li>
+                <li><a href="#sg-main" class="skip">main</a></li>
+                <li><a href="#sg-menu" class="skip">menu</a></li>
+                <li><a href="#sg-navbar" class="skip">navbar</a></li>
+                <li><a href="#sg-sidebar" class="skip">sidebar</a></li>
+                <li><a href="#sg-footer-block--branding" class="skip">footer-block--branding</a></li>
+                <li><a href="#sg-footer-block--menu" class="skip">footer-block--menu</a></li>
+                <li><a href="#sg-header-block--branding" class="skip">header-block--branding</a></li>
+                <li><a href="#sg-header-block--language" class="skip">header-block--language</a></li>
+                <li><a href="#sg-header-block--search" class="skip">header-block--search</a></li>
+                <li><a href="#sg-hero-block--pagetitle" class="skip">hero-block--pagetitle</a></li>
+                <li><a href="#sg-main-node--full" class="skip">main-node--full</a></li>
+                <li><a href="#sg-main-node--teaser" class="skip">main-node--teaser</a></li>
+                <li><a href="#sg-main-search--results" class="skip">main-search--results</a></li>
+                <li><a href="#sg-main-user--login" class="skip">main-user--login</a></li>
+                <li><a href="#sg-main-user--pass" class="skip">main-user--pass</a></li>
+                <li><a href="#sg-main-user--register" class="skip">main-user--register</a></li>
+                <li><a href="#sg-menu-block--menu" class="skip">menu-block--menu</a></li>
+                <li><a href="#sg-navbar-block--branding" class="skip">navbar-block--branding</a></li>
+                <li><a href="#sg-navbar-icons" class="skip">navbar-icons</a></li>
+                <li><a href="#sg-sidebar-block--menu" class="skip">sidebar-block--menu</a></li>
+                <!-- endinject -->
+            </ul>
+        </li>
+        <li>
+            <a href="layouts.phtml">04<span> - Layouts</span></a>
+        </li>            
+        <li>
+            <a href="pages.phtml">05<span> - Pages</span></a>
+        </li> 
+    </ul>
+</div>
+
+<div id="sg-organisms">
+<!-- inject:content -->
+<?php include "code/components/03-organisms/copyright.phtml"; ?>
+<?php include "code/components/03-organisms/footer.phtml"; ?>
+<?php include "code/components/03-organisms/header.phtml"; ?>
+<?php include "code/components/03-organisms/hero.phtml"; ?>
+<?php include "code/components/03-organisms/main.phtml"; ?>
+<?php include "code/components/03-organisms/menu.phtml"; ?>
+<?php include "code/components/03-organisms/navbar.phtml"; ?>
+<?php include "code/components/03-organisms/sidebar.phtml"; ?>
+<?php include "code/components/03-organisms/footer/footer-block--branding.phtml"; ?>
+<?php include "code/components/03-organisms/footer/footer-block--menu.phtml"; ?>
+<?php include "code/components/03-organisms/header/header-block--branding.phtml"; ?>
+<?php include "code/components/03-organisms/header/header-block--language.phtml"; ?>
+<?php include "code/components/03-organisms/header/header-block--search.phtml"; ?>
+<?php include "code/components/03-organisms/hero/hero-block--pagetitle.phtml"; ?>
+<?php include "code/components/03-organisms/main/main-node--full.phtml"; ?>
+<?php include "code/components/03-organisms/main/main-node--teaser.phtml"; ?>
+<?php include "code/components/03-organisms/main/main-search--results.phtml"; ?>
+<?php include "code/components/03-organisms/main/main-user--login.phtml"; ?>
+<?php include "code/components/03-organisms/main/main-user--pass.phtml"; ?>
+<?php include "code/components/03-organisms/main/main-user--register.phtml"; ?>
+<?php include "code/components/03-organisms/menu/menu-block--menu.phtml"; ?>
+<?php include "code/components/03-organisms/navbar/navbar-block--branding.phtml"; ?>
+<?php include "code/components/03-organisms/navbar/navbar-icons.phtml"; ?>
+<?php include "code/components/03-organisms/sidebar/sidebar-block--menu.phtml"; ?>
+<!-- endinject -->
+</div>
+
+</body>
+</html>

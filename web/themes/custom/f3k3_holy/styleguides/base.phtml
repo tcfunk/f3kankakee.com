@@ -1,0 +1,67 @@
+<?php
+
+/**
+ * @file
+ * Style Guides - base.
+ */
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Style Guide - Base</title>
+    <?php include 'include/meta.php'; ?>
+    <?php include 'include/link-core.php'; ?>
+    <?php include 'include/link-sg.php'; ?>
+    <?php include 'include/link.php'; ?>
+    <?php include 'include/script.php'; ?>
+</head>
+
+<body class="styleguide-body">
+
+<div id="styleguide-menu">
+    <ul class="menu">
+        <li>
+            <a href="index.phtml">Drupal</a>
+        </li>
+        <li>
+            <a href="base.phtml" class="active">00<span> - Base</span></a>
+            <ul>
+                <!-- inject:list -->
+                <li><a href="#sg-fonts" class="skip">fonts</a></li>
+                <li><a href="#sg-class" class="skip">class</a></li>
+                <li><a href="#sg-color" class="skip">color</a></li>
+                <li><a href="#sg-global" class="skip">global</a></li>
+                <li><a href="#sg-variables" class="skip">variables</a></li>
+                <!-- endinject -->
+            </ul>
+        </li>
+        <li>
+            <a href="atoms.phtml">01<span> - Atoms</span></a>
+        </li>
+        <li>
+            <a href="molecules.phtml">02<span> - Molecules</span></a>
+        </li>
+        <li>
+            <a href="organisms.phtml">03<span> - Organisms</span></a>
+        </li>
+        <li>
+            <a href="layouts.phtml">04<span> - Layouts</span></a>
+        </li>            
+        <li>
+            <a href="pages.phtml">05<span> - Pages</span></a>
+        </li> 
+    </ul>
+</div>
+
+<div id="sg-base">
+<!-- inject:content -->
+<?php include "code/fonts.phtml"; ?>
+<?php include "code/class.phtml"; ?>
+<?php include "code/color.phtml"; ?>
+<?php include "code/global.phtml"; ?>
+<?php include "code/variables.phtml"; ?>
+<!-- endinject -->
+</div>
+
+</body>
+</html>

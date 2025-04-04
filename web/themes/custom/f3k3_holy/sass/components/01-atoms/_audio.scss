@@ -1,0 +1,11 @@
+// audio
+
+audio {
+  background: $black;
+}
+
+@media (max-width: 45rem) {
+  audio {
+    width: 100% !important;
+  }
+}

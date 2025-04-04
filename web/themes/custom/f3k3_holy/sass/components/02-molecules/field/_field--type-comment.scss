@@ -1,0 +1,32 @@
+// FIELD -- type comment
+
+.field--type-comment {
+  .comment {
+    position: relative;
+    margin: 2rem 0 0 0;
+    padding: 1.5rem 2rem;
+    border: 0.1rem solid $gray-4;
+
+    .comment__meta > a {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+    }
+
+    &.new {
+      mark {
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+        display: inline-block;
+      }
+    }
+  }
+
+  .indented {
+    margin-left: 5rem;
+  }
+
+  .comment-form__title {
+    padding-top: 5rem;
+  }
+}

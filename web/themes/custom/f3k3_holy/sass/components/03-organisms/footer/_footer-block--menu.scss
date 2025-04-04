@@ -1,0 +1,42 @@
+// FOOTER - BLOCK -- menu
+
+#footer {
+  .block-menu {
+    margin-bottom: 3rem;
+
+    ul.menu {
+      li {
+        a {
+          display: block;
+          padding: 0.8rem 0 0.8rem 0;
+          text-decoration: none;
+          color: $footer-link;
+
+          &:hover {
+            color: $footer-link-hover;
+          }
+        }
+      }
+    }
+
+    @media (max-width: $screen-sm-max) {
+      & ul {
+        text-align: center;
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      & {
+        margin-bottom: 0;
+
+        ul.menu {
+          li {
+            a {
+              padding: 0 0 1.6rem 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+// navbar
+
+#navbar-wrapper {
+  @media (max-width: $screen-sm-max) {
+    & {
+      position: relative;
+      height: $navbar_height;
+    }
+
+    #navbar {
+      position: relative;
+      z-index: 100;
+      height: $navbar_height;
+      background: $white;
+      box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,0.3);
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    & {
+      display: none;
+    }
+  }
+}
+
+// open
+body.menu-open {
+  #navbar-wrapper {
+    #navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: $navbar_height;
+    }
+  }
+}

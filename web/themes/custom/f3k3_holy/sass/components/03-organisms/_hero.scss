@@ -1,0 +1,10 @@
+// hero
+
+#hero {
+  color: $hero-text;
+  background: $hero-background;
+
+  .block > h2 {
+    display: none;
+  }
+}

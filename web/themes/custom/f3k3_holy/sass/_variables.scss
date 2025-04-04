@@ -1,0 +1,115 @@
+// variables
+
+// COLORS
+$white:#fff;
+$black: #000;
+
+$primary-color: oklch(50.5% 0.213 27.518);
+$primary-light-color: oklch(70.4% 0.191 22.216);
+$primary-dark-color: oklch(25.8% 0.092 26.042);
+
+$gray-1: oklch(44.2% 0.017 285.786);
+$gray-2: oklch(27.4% 0.006 286.033);
+$gray-3: oklch(14.1% 0.005 285.823);
+$gray-4: oklch(55.2% 0.016 285.938);
+$gray-5: oklch(87.1% 0.006 286.286);
+
+// BREAKPOINTS
+$screen-xs-min: 30rem;
+$screen-sm-min: 48rem;
+$screen-md-min: 64rem;
+$screen-lg-min: 82rem;
+
+$screen-xs-max: ($screen-sm-min - 0.1rem);
+$screen-sm-max: ($screen-md-min - 0.1rem);
+$screen-md-max: ($screen-lg-min - 0.1rem); 
+
+// TYPO
+$h1-font-size: 6rem;
+$h1-font-size-mobile: 4.8rem;
+$h2-font-size: 3.4rem;
+$h2-font-size-mobile: 2.8rem;
+$h3-font-size: 2.5rem;
+$h4-font-size: 2.0rem;
+$h5-font-size: 1.8rem;
+$h6-font-size: 1.6rem;
+
+// BODY
+$body-background: $white;
+$body-text: $gray-2;
+
+// LAYOUT
+$navbar-collapse-background: $gray-3;
+$navbar-collapse-text: $white;
+
+// NAVBAR
+$navbar-background: transparent;
+$navbar-text: $gray-2;
+$navbar-height: 8rem;
+
+// HEADER
+$header-background: transparent;
+$header-text: $gray-2;
+
+// MENU
+$menu-background: transparent;
+$menu-text: $gray-2;
+
+$menu-link-background: transparent;
+$menu-link-background-hover: $gray-1;
+$menu-link-text: $white;
+$menu-link-text-hover: $white;
+$menu-link-text-active: $white;
+$menu-link-text-active-hover: $white;
+
+$menu-second-link-background: $gray-1;
+$menu-second-link-background-hover: $gray-2;
+$menu-second-link-text: $white;
+$menu-second-link-text-hover: $white;
+$menu-second-link-text-active: $white;
+$menu-second-link-text-active-hover: $white;
+
+$menu-mobile-background: transparent;
+$menu-mobile-text: $white;
+
+$menu-mobile-border: $primary-light-color;
+$menu-mobile-link-text: $white;
+$menu-mobile-link-text-hover: $white;
+$menu-mobile-link-text-active: $white;
+$menu-mobile-link-text-active-hover: $white;
+
+// HERO
+$hero-background: $primary-dark-color;
+$hero-text: $white;
+$hero-title-text: $white;
+
+// MAIN
+$main-background: transparent;
+$main-text: $gray-2;
+
+// SIDE
+$sidebar-background: transparent;
+$sidebar-text: $gray-2;
+
+$sidebar-block-border: $gray-1;
+$sidebar-block-title-text: $gray-1;
+
+$sidebar-menu-border: $gray-4;
+$sidebar-menu-link: $gray-1;
+$sidebar-menu-link-hover: $gray-1;
+$sidebar-menu-background: transparent;
+$sidebar-menu-background-hover: transparent;
+$sidebar-menu-link-active: $gray-1;
+$sidebar-menu-link-active-hover: $gray-1;
+$sidebar-menu-background-active: transparent;
+$sidebar-menu-background-active-hover: transparent;
+
+// FOOTER
+$footer-background: $gray-3;
+$footer-text: $white;
+$footer-link: $white;
+$footer-link-hover: $primary-light-color;
+
+// COPY
+$copy-background: $gray-3;
+$copy-text: #aaaaaa;

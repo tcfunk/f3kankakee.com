@@ -1,0 +1,56 @@
+// FOOTER - BLOCK -- branding
+
+#footer {
+  .block-system-branding-block {
+    float: none;
+    height: auto;
+    margin-bottom: 3rem;
+
+    a.logo {
+      display: block;
+      width: 16rem;
+      margin: 0 auto;
+      padding: 0;
+      text-align: center;
+      text-decoration: none;
+
+      .image {
+        display: block;
+        padding-right: 1rem;
+        vertical-align: top;
+
+        img {
+          width: 18rem;
+          height: auto;
+        }
+      }
+
+      .title {
+        display: block;
+        vertical-align: top;
+
+        .site-name {
+          display: block;
+          color: $white;
+          font-size: 2.6rem;
+        }
+
+        .site-slogan {
+          display: block;
+          color: $white;
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      & {
+        margin-bottom: 0;
+
+        a.logo {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+uuid: 262c77c3-980a-47e1-99e0-b4da2ffd555a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - holy
+_core:
+  default_config_hash: UjzB65h-eBXwKp6p2JNZwxJZebgxtvRmQdp5PQ2Edw0
+id: holy_local_tasks
+theme: holy
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: ''
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

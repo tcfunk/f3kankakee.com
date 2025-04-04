@@ -1,0 +1,20 @@
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - holy
+id: holy_branding_1
+theme: holy
+region: navbar
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

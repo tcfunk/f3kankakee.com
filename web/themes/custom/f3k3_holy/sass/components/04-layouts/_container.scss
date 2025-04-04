@@ -1,0 +1,21 @@
+// container
+
+.container {
+  position: relative;
+  padding: 0 2.5rem;
+
+  @media (min-width: $screen-sm-min) {
+    & {
+      width: 100%;
+      padding: 0 3rem;
+    }
+  }
+
+  @media (min-width: $screen-lg-min) {
+    & {
+      width: 120rem;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+}

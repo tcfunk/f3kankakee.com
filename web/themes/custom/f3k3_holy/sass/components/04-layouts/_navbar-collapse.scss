@@ -1,0 +1,42 @@
+// navbar - collapse
+
+#navbar-collapse {
+  background: $navbar-collapse-background;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  #navbar-collapse {
+    display: none;
+  }
+
+  body.menu-open {
+    #navbar-collapse {
+      position: fixed;
+      z-index: 1000;
+      top: $navbar_height;
+      left: 0;
+      display: flex;
+      overflow-y: auto;
+      flex-direction: column;
+      width: 100%;
+      height: calc(100% - $navbar_height);
+      padding-top: 3.5rem;
+      color: $navbar-collapse-text;
+      background: $navbar-collapse-background;
+
+      #header {
+        order: 2;
+      }
+
+      #menu {
+        order: 1;
+      }
+    }
+  }
+}

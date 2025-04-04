@@ -1,0 +1,75 @@
+// form elements
+
+input,
+select,
+textarea {
+  width: 100%;
+  height: 4rem;
+  padding: 0 1.3rem 0 1.3rem;
+  transition: 0.18s ease-out;
+  vertical-align: bottom;
+  color: #595959;
+  border: 0.1rem solid #d1d1d1;
+  border-radius: 0.4rem;
+  outline: none;
+  background: #fff;
+  box-shadow: inset 0.1rem 0.2rem 0.8rem rgba(0, 0, 0, 0.07);
+  font-family: inherit;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+input[type="checkbox"],
+input[type="radio"],
+input[type="file"] {
+  width: auto;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  width: 18px;
+  height: 18px;
+  box-shadow: none;
+}
+
+input[type=file] {
+  width: auto;
+  height: auto;
+  padding: 1rem;
+}
+
+@media (max-width: $screen-sm-max) {
+  input[type="file"] {
+    width: 100%;
+  }
+}
+
+input[type="reset"],
+input[type="submit"] {
+  width: auto;
+  cursor: pointer;
+  color: $white;
+  border: 0.1rem solid transparent;
+  background: $primary-color;
+}
+
+// hover
+input:hover,
+select:hover,
+textarea:hover {
+  box-shadow: inset 0.1rem 0.2rem 0.8rem rgba(0, 0, 0, 0.02);
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background: $primary-dark-color;
+}
+
+// focus
+input:focus,
+textarea:focus,
+select:focus {
+  color: #000;
+  border: 0.1rem solid #b8b6b6;
+  box-shadow: inset 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.01), 0 0 0.8rem rgba(0, 0, 0, 0.2);
+}

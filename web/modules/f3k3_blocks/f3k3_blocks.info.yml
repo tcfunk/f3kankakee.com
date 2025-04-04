@@ -1,0 +1,5 @@
+name: 'F3K3 Blocks'
+type: module
+description: 'Provides custom block types for F3K3 theme.'
+package: f3k3
+core_version_requirement: ^10 || ^11

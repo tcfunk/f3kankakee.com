@@ -1,0 +1,57 @@
+<?php
+
+/**
+ * @file
+ * Style Guides - molecules.
+ */
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Style Guide - Molecules</title>
+    <?php include 'include/meta.php'; ?>
+    <?php include 'include/link-core.php'; ?>
+    <?php include 'include/link-sg.php'; ?>
+    <?php include 'include/link.php'; ?>
+    <?php include 'include/script.php'; ?>
+</head>
+
+<body class="styleguide-body">
+
+<div id="styleguide-menu">
+    <ul class="menu">
+        <li>
+            <a href="index.phtml">Drupal</a>
+        </li>
+        <li>
+            <a href="base.phtml">00<span> - Base</span></a>
+        </li>
+        <li>
+            <a href="atoms.phtml">01<span> - Atoms</span></a>
+        </li>
+        <li>
+            <a href="molecules.phtml" class="active">02<span> - Molecules</span></a>
+            <ul>
+                <!-- inject:list -->
+                <!-- endinject -->
+            </ul>
+        </li>
+        <li>
+            <a href="organisms.phtml">03<span> - Organisms</span></a>
+        </li>
+        <li>
+            <a href="layouts.phtml">04<span> - Layouts</span></a>
+        </li>            
+        <li>
+            <a href="pages.phtml">05<span> - Pages</span></a>
+        </li> 
+    </ul>
+</div>
+
+<div id="sg-molecules">
+<!-- inject:content -->
+<!-- endinject -->
+</div>
+
+</body>
+</html>
