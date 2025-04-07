@@ -1,12 +1,15 @@
 // button
 
+a.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+
 .button {
   background: $primary-color;
   border: 1px solid transparent;
   color: $white;
-  display: inline-block;
   margin: 2rem 0;
-  padding: 1rem 2rem;
   text-align: center;
   text-decoration: none;
   position: relative;

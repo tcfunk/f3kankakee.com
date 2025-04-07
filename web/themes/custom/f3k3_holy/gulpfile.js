@@ -3,14 +3,17 @@ let gulp = require('gulp'),
     sassGlob = require('gulp-sass-glob'),
     autoprefixer = require('gulp-autoprefixer'),
     remToPx = require('gulp-rem-to-px'),
-    csscombx = require('gulp-csscombx')
+    csscombx = require('gulp-csscombx'),
+    sourcemaps = require('gulp-sourcemaps');
 
 // scss
 gulp.task('scss', function () {
 
   return gulp.src('./sass/components/**/*.scss')
-    .pipe(sassGlob())
-    .pipe(csscombx())
+    .pipe(sourcemaps.init())
+      .pipe(sassGlob())
+      .pipe(csscombx())
+      .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./sass/components'));
 
 });
@@ -30,11 +33,13 @@ gulp.task('ckeditor', function () {
 gulp.task('sass', function () {
 
   return gulp.src('./sass/*.scss')
-
-    .pipe(sassGlob())
-    .pipe(sass())
-    .pipe(autoprefixer())
-    .pipe(csscombx())
+    .pipe(sourcemaps.init())
+      .pipe(sourcemaps.identityMap())
+      .pipe(sassGlob())
+      .pipe(sass())
+      .pipe(autoprefixer())
+      .pipe(csscombx())
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./css'))
 
 });

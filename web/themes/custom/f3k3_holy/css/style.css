@@ -394,11 +394,14 @@ video {
   padding: 0;
 }
 
+a.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+
 .button {
   position: relative;
-  display: inline-block;
   margin: 2rem 0;
-  padding: 1rem 2rem;
   text-align: center;
   text-decoration: none;
   color: #fff;
