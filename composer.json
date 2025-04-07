@@ -1,7 +1,6 @@
 {
-    "name": "drupal/cms",
-    "version": "1.0.0",
-    "description": "Drupal with a bunch of useful stuff.",
+    "name": "tcfunk/f3kankakee",
+    "description": "Drupal site for f3kankakee.com",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "homepage": "https://www.drupal.org/project/drupal",
@@ -38,9 +37,9 @@
         "drupal/holy": "^2.0",
         "drupal/paragraph_blocks": "^4.1",
         "drupal/paragraphs": "^1.19",
-        "drupal/project_browser": "@alpha",
+        "drupal/project_browser": "^2-alpha7",
         "drupal/radix": "^6.0",
-        "drupal/webform": "@beta",
+        "drupal/webform": "^6.3-beta",
         "drush/drush": "^13"
     },
     "conflict": {

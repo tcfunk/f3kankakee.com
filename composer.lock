@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba04504c5cff25723451e652c3588cb8",
+    "content-hash": "2527daa86932c919d0ef5eae5978a496",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1308,26 +1308,29 @@
         },
         {
             "name": "doctrine/deprecations",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/deprecations.git",
-                "reference": "31610dbb31faa98e6b5447b62340826f54fbc4e9"
+                "reference": "459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/31610dbb31faa98e6b5447b62340826f54fbc4e9",
-                "reference": "31610dbb31faa98e6b5447b62340826f54fbc4e9",
+                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38",
+                "reference": "459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0"
             },
+            "conflict": {
+                "phpunit/phpunit": "<=7.5 || >=13"
+            },
             "require-dev": {
-                "doctrine/coding-standard": "^9 || ^12",
-                "phpstan/phpstan": "1.4.10 || 2.0.3",
+                "doctrine/coding-standard": "^9 || ^12 || ^13",
+                "phpstan/phpstan": "1.4.10 || 2.1.11",
                 "phpstan/phpstan-phpunit": "^1.0 || ^2",
-                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.6 || ^10.5 || ^11.5 || ^12",
                 "psr/log": "^1 || ^2 || ^3"
             },
             "suggest": {
@@ -1347,9 +1350,9 @@
             "homepage": "https://www.doctrine-project.org/",
             "support": {
                 "issues": "https://github.com/doctrine/deprecations/issues",
-                "source": "https://github.com/doctrine/deprecations/tree/1.1.4"
+                "source": "https://github.com/doctrine/deprecations/tree/1.1.5"
             },
-            "time": "2024-12-07T21:18:45+00:00"
+            "time": "2025-04-07T20:06:18+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -2662,16 +2665,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "11.1.1",
+            "version": "11.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "aa2bca2d785aaa63461ec73b5620a8543c894bc7"
+                "reference": "d436fecd9f6296c49fcec0acda19df03129f59dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/aa2bca2d785aaa63461ec73b5620a8543c894bc7",
-                "reference": "aa2bca2d785aaa63461ec73b5620a8543c894bc7",
+                "url": "https://api.github.com/repos/drupal/core/zipball/d436fecd9f6296c49fcec0acda19df03129f59dd",
+                "reference": "d436fecd9f6296c49fcec0acda19df03129f59dd",
                 "shasum": ""
             },
             "require": {
@@ -2824,9 +2827,9 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/11.1.1"
+                "source": "https://github.com/drupal/core/tree/11.1.6"
             },
-            "time": "2025-01-06T22:41:17+00:00"
+            "time": "2025-04-02T21:04:03+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
@@ -2921,16 +2924,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "11.1.1",
+            "version": "11.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "b4c0a092e66edd41cbfc7a3b7049b3af0b2ab496"
+                "reference": "a34dd6ccbe4dcb2ec9fc79bdb9deb0c16da55e64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/b4c0a092e66edd41cbfc7a3b7049b3af0b2ab496",
-                "reference": "b4c0a092e66edd41cbfc7a3b7049b3af0b2ab496",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/a34dd6ccbe4dcb2ec9fc79bdb9deb0c16da55e64",
+                "reference": "a34dd6ccbe4dcb2ec9fc79bdb9deb0c16da55e64",
                 "shasum": ""
             },
             "require": {
@@ -2939,7 +2942,7 @@
                 "doctrine/annotations": "~2.0.2",
                 "doctrine/deprecations": "~1.1.3",
                 "doctrine/lexer": "~2.1.1",
-                "drupal/core": "11.1.1",
+                "drupal/core": "11.1.6",
                 "egulias/email-validator": "~4.0.2",
                 "guzzlehttp/guzzle": "~7.9.2",
                 "guzzlehttp/promises": "~2.0.4",
@@ -2989,7 +2992,7 @@
                 "symfony/var-dumper": "~v7.2.0",
                 "symfony/var-exporter": "~v7.2.0",
                 "symfony/yaml": "~v7.2.0",
-                "twig/twig": "~v3.16.0"
+                "twig/twig": "~v3.19.0"
             },
             "conflict": {
                 "webflo/drupal-core-strict": "*"
@@ -3001,9 +3004,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/11.1.1"
+                "source": "https://github.com/drupal/core-recommended/tree/11.1.6"
             },
-            "time": "2025-01-06T22:41:17+00:00"
+            "time": "2025-04-02T21:04:03+00:00"
         },
         {
             "name": "drupal/crop",
@@ -6496,17 +6499,17 @@
         },
         {
             "name": "drupal/project_browser",
-            "version": "2.0.0-alpha7",
+            "version": "2.0.0-alpha9",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/project_browser.git",
-                "reference": "2.0.0-alpha7"
+                "reference": "2.0.0-alpha9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/project_browser-2.0.0-alpha7.zip",
-                "reference": "2.0.0-alpha7",
-                "shasum": "fc1e24e9bde695313e3c1dbbde2654bc99988f69"
+                "url": "https://ftp.drupal.org/files/projects/project_browser-2.0.0-alpha9.zip",
+                "reference": "2.0.0-alpha9",
+                "shasum": "ca3fdf5c4aac98b5d1154bde9a7893b05c0e9475"
             },
             "require": {
                 "composer-runtime-api": "^2",
@@ -6528,8 +6531,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0-alpha7",
-                    "datestamp": "1736444376",
+                    "version": "2.0.0-alpha9",
+                    "datestamp": "1739290480",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -6560,16 +6563,8 @@
             ],
             "authors": [
                 {
-                    "name": "bnjmnm",
-                    "homepage": "https://www.drupal.org/user/2369194"
-                },
-                {
                     "name": "chrisfromredfin",
                     "homepage": "https://www.drupal.org/user/74392"
-                },
-                {
-                    "name": "dmitrig01",
-                    "homepage": "https://www.drupal.org/user/47566"
                 },
                 {
                     "name": "fjgarlin",
@@ -6580,28 +6575,8 @@
                     "homepage": "https://www.drupal.org/user/455714"
                 },
                 {
-                    "name": "jacob@redfinsolutions.com",
-                    "homepage": "https://www.drupal.org/user/3574855"
-                },
-                {
-                    "name": "leslieg",
-                    "homepage": "https://www.drupal.org/user/1746792"
-                },
-                {
                     "name": "narendrar",
                     "homepage": "https://www.drupal.org/user/1730192"
-                },
-                {
-                    "name": "rlnorthcutt",
-                    "homepage": "https://www.drupal.org/user/116893"
-                },
-                {
-                    "name": "srishtiiee",
-                    "homepage": "https://www.drupal.org/user/3685162"
-                },
-                {
-                    "name": "sun",
-                    "homepage": "https://www.drupal.org/user/54136"
                 },
                 {
                     "name": "tim.plunkett",
@@ -7856,17 +7831,17 @@
         },
         {
             "name": "drupal/webform",
-            "version": "6.3.0-beta1",
+            "version": "6.3.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "6.3.0-beta1"
+                "reference": "6.3.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-6.3.0-beta1.zip",
-                "reference": "6.3.0-beta1",
-                "shasum": "f712d463e883b678d7147b5c80bd8f9da72f13f8"
+                "url": "https://ftp.drupal.org/files/projects/webform-6.3.0-beta2.zip",
+                "reference": "6.3.0-beta2",
+                "shasum": "02e45bf3716c6e81846a9b77837782a43053e6f9"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11.0"
@@ -7911,8 +7886,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "6.3.0-beta1",
-                    "datestamp": "1736275819",
+                    "version": "6.3.0-beta2",
+                    "datestamp": "1742582977",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -7944,12 +7919,12 @@
                     "homepage": "https://www.drupal.org/user/493050"
                 },
                 {
-                    "name": "quicksketch",
-                    "homepage": "https://www.drupal.org/user/35821"
+                    "name": "mandclu",
+                    "homepage": "https://www.drupal.org/user/52136"
                 },
                 {
-                    "name": "torotil",
-                    "homepage": "https://www.drupal.org/user/865256"
+                    "name": "quicksketch",
+                    "homepage": "https://www.drupal.org/user/35821"
                 }
             ],
             "description": "Enables the creation of webforms and questionnaires.",
@@ -14778,16 +14753,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.16.0",
+            "version": "v3.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "475ad2dc97d65d8631393e721e7e44fb544f0561"
+                "reference": "d4f8c2b86374f08efc859323dbcd95c590f7124e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/475ad2dc97d65d8631393e721e7e44fb544f0561",
-                "reference": "475ad2dc97d65d8631393e721e7e44fb544f0561",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d4f8c2b86374f08efc859323dbcd95c590f7124e",
+                "reference": "d4f8c2b86374f08efc859323dbcd95c590f7124e",
                 "shasum": ""
             },
             "require": {
@@ -14842,7 +14817,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.16.0"
+                "source": "https://github.com/twigphp/Twig/tree/v3.19.0"
             },
             "funding": [
                 {
@@ -14854,7 +14829,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-29T08:27:05+00:00"
+            "time": "2025-01-29T07:06:14+00:00"
         },
         {
             "name": "voku/portable-ascii",
