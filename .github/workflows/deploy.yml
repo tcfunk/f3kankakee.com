@@ -29,20 +29,10 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-php-
 
-    - name: Cache pnpm packages
-      id: pnpm-cache
-      uses: actions/cache@v3
-      with:
-        path: web/themes/custom/f3k3_holy/node_modules
-        key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
-        restore-keys: |
-          ${{ runner.os }}-pnpm-
 
     - name: Install dependencies
       run: |
         composer install --prefer-dist --no-progress
-        cd web/themes/custom/f3k3_holy
-        pnpm i
 
     - name: Build theme
       run: cd web/themes/custom/f3k3_holy &&
