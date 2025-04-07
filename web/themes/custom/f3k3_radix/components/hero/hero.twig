@@ -4,4 +4,21 @@
 * Template for hero component.
 */
 #}
-<h1>F3K3:HERO</h1>
+
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {{ content.background_image }}
+
+  <div class="hero-content container">
+    {% block content %}
+      {{ content|without('background_image') }}
+    {% endblock %}
+  </div>
+</div>
+

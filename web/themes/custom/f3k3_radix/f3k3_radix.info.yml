@@ -7,8 +7,8 @@ engine: twig
 type: theme
 'base theme': radix
 starterkit: true
-'interface translation project': f3k3
-'interface translation server pattern': themes/custom/f3k3/translations/%language.po
+'interface translation project': f3k3_radix
+'interface translation server pattern': themes/custom/f3k3_radix/translations/%language.po
 regions:
   navbar_branding: 'Navbar branding'
   navbar_left: 'Navbar left'
@@ -18,20 +18,20 @@ regions:
   page_bottom: 'Page bottom'
   footer: Footer
 libraries:
-  - f3k3/style
+  - f3k3_radix/style
 ckeditor5-stylesheets:
   - build/css/main.style.css
 libraries-extend:
   core/drupal.ajax:
-    - f3k3/drupal.ajax
+    - f3k3_radix/drupal.ajax
   core/drupal.checkbox:
-    - f3k3/drupal.checkbox
+    - f3k3_radix/drupal.checkbox
   core/drupal.message:
-    - f3k3/drupal.message
+    - f3k3_radix/drupal.message
   core/drupal.progress:
-    - f3k3/drupal.progress
+    - f3k3_radix/drupal.progress
   clientside_validation_jquery/cv.jquery.validate:
-    - f3k3/jquery.validate
+    - f3k3_radix/jquery.validate
 version: 1.0.0
 project: radix
 datestamp: 1737210935

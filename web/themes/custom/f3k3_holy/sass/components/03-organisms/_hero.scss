@@ -3,6 +3,15 @@
 #hero {
   color: $hero-text;
   background: $hero-background;
+  position: relative;
+
+  .hero-content {
+    text-align: center;
+
+    h1 {
+      text-transform: uppercase;
+    }
+  }
 
   .block > h2 {
     display: none;

@@ -11,19 +11,19 @@
 
     @media (max-width: $screen-sm-max) {
       h1 {
-        padding: 3rem 0;
+        padding: $space-sm 0;
       }
     }
 
     @media (min-width: $screen-md-min) {
       h1 {
-        padding: 5rem 0;
+        padding: $space-lg 0;
       }
     }
   }
 
   .block-f3k3-blocks-hero {
-    padding: 4rem 0;
+    padding: $space-xl 0;
 
     &::before {
       content: '';
@@ -33,7 +33,7 @@
       position: absolute;
       top: 0;
       width: 100%;
-      background: $hero-background;
+      background: $gray-3;
       opacity: 0.5;
       z-index: 2;
     }

@@ -199,11 +199,11 @@
 }
 
 .margin-10 {
-  margin: 1rem;
+  margin: 10px;
 }
 
 .margin-20 {
-  margin: 1rem;
+  margin: 10px;
 }
 
 /* background */
@@ -256,19 +256,19 @@
   background: #000;
 }
 
-@media (max-width: 45rem) {
+@media (max-width: 450px) {
   .cke_editable audio {
     width: 100% !important;
   }
 }
 
 .cke_editable blockquote {
-  margin: 0 0 1.6rem 0;
+  margin: 0 0 16px 0;
 }
 
 .cke_editable blockquote p {
   margin: 0;
-  padding: 1.5rem;
+  padding: 15px;
   background: oklch(55.2% 0.016 285.938deg);
 }
 
@@ -294,25 +294,25 @@
 
 .cke_editable body {
   color: oklch(27.4% 0.006 286.033deg);
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 
 .cke_editable input,
 .cke_editable select,
 .cke_editable textarea {
   width: 100%;
-  height: 4rem;
-  padding: 0 1.3rem 0 1.3rem;
+  height: 40px;
+  padding: 0 13px 0 13px;
   transition: 0.18s ease-out;
   vertical-align: bottom;
   color: #595959;
-  border: 0.1rem solid #d1d1d1;
-  border-radius: 0.4rem;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
   outline: none;
   background: #fff;
-  box-shadow: inset 0.1rem 0.2rem 0.8rem rgba(0, 0, 0, 0.07);
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
   font-family: inherit;
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -332,10 +332,10 @@
 .cke_editable input[type=file] {
   width: auto;
   height: auto;
-  padding: 1rem;
+  padding: 10px;
 }
 
-@media (max-width: 63.9rem) {
+@media (max-width: 639px) {
   .cke_editable input[type=file] {
     width: 100%;
   }
@@ -346,14 +346,14 @@
   width: auto;
   cursor: pointer;
   color: #fff;
-  border: 0.1rem solid transparent;
+  border: 1px solid transparent;
   background: oklch(50.5% 0.213 27.518deg);
 }
 
 .cke_editable input:hover,
 .cke_editable select:hover,
 .cke_editable textarea:hover {
-  box-shadow: inset 0.1rem 0.2rem 0.8rem rgba(0, 0, 0, 0.02);
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
 }
 
 .cke_editable input[type=reset]:hover,
@@ -365,14 +365,14 @@
 .cke_editable textarea:focus,
 .cke_editable select:focus {
   color: #000;
-  border: 0.1rem solid #b8b6b6;
-  box-shadow: inset 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.01), 0 0 0.8rem rgba(0, 0, 0, 0.2);
+  border: 1px solid #b8b6b6;
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 .cke_editable hr {
   clear: both;
-  margin: 1.6rem 0;
-  border: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  margin: 16px 0;
+  border: 1px solid oklch(27.4% 0.006 286.033deg);
 }
 
 .cke_editable html {
@@ -408,79 +408,79 @@
 }
 
 .cke_editable ul {
-  margin: 0 0 1.6rem 0;
-  padding: 0.2rem 0 0.2rem 1.5rem;
+  margin: 0 0 16px 0;
+  padding: 2px 0 2px 15px;
 }
 
 .cke_editable ul li {
-  margin: 0.6rem 0 0.6rem 0;
+  margin: 6px 0 6px 0;
   list-style-position: outside;
   line-height: 1.5;
 }
 
 .cke_editable ul ul {
   margin: 0;
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 20px;
 }
 
 .cke_editable ol {
-  margin: 0 0 1.6rem 0;
-  padding: 0.2rem 0 0.2rem 1.5rem;
+  margin: 0 0 16px 0;
+  padding: 2px 0 2px 15px;
 }
 
 .cke_editable ol li {
-  margin: 0.6rem 0 0.6rem 0;
+  margin: 6px 0 6px 0;
   list-style-position: outside;
   line-height: 1.5;
 }
 
 .cke_editable ol ol {
   margin: 0;
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 20px;
 }
 
 .cke_editable p {
-  margin: 0 0 1.6rem 0;
-  font-size: 1.6rem;
+  margin: 0 0 16px 0;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .cke_editable table {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
   border-collapse: collapse;
-  border-top: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-top: 1px solid oklch(27.4% 0.006 286.033deg);
   border-right: 0;
   border-bottom: 0;
-  border-left: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-left: 1px solid oklch(27.4% 0.006 286.033deg);
 }
 
 .cke_editable caption {
-  padding: 1rem 1.5rem;
+  padding: 10px 15px;
   text-align: left;
-  border-top: 0.1rem solid oklch(27.4% 0.006 286.033deg);
-  border-right: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-top: 1px solid oklch(27.4% 0.006 286.033deg);
+  border-right: 1px solid oklch(27.4% 0.006 286.033deg);
   border-bottom: 0;
-  border-left: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-left: 1px solid oklch(27.4% 0.006 286.033deg);
   font-weight: bold;
 }
 
 .cke_editable th {
-  padding: 1rem 1.5rem;
+  padding: 10px 15px;
   text-align: left;
   border-top: 0;
-  border-right: 0.1rem solid oklch(27.4% 0.006 286.033deg);
-  border-bottom: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-right: 1px solid oklch(27.4% 0.006 286.033deg);
+  border-bottom: 1px solid oklch(27.4% 0.006 286.033deg);
   border-left: 0;
   background: oklch(55.2% 0.016 285.938deg);
   font-weight: bold;
 }
 
 .cke_editable td {
-  padding: 1rem 1.5rem;
+  padding: 10px 15px;
   border-top: 0;
-  border-right: 0.1rem solid oklch(27.4% 0.006 286.033deg);
-  border-bottom: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-right: 1px solid oklch(27.4% 0.006 286.033deg);
+  border-bottom: 1px solid oklch(27.4% 0.006 286.033deg);
   border-left: 0;
 }
 
@@ -501,63 +501,63 @@
 .cke_editable h1 {
   margin: 0;
   padding: 0;
-  font-size: 6rem;
+  font-size: 60px;
   font-weight: 600;
   line-height: 1.1;
 }
 
-@media (max-width: 63.9rem) {
+@media (max-width: 639px) {
   .cke_editable h1 {
-    font-size: 4.8rem;
+    font-size: 48px;
   }
 }
 
 .cke_editable h2 {
-  margin: 0 0 0.8rem 0;
-  padding: 1.6rem 0 0 0;
+  margin: 0 0 8px 0;
+  padding: 16px 0 0 0;
   color: oklch(50.5% 0.213 27.518deg);
-  font-size: 3.4rem;
+  font-size: 34px;
   font-weight: normal;
   line-height: 1.1;
 }
 
-@media (max-width: 63.9rem) {
+@media (max-width: 639px) {
   .cke_editable h2 {
-    font-size: 2.8rem;
+    font-size: 28px;
   }
 }
 
 .cke_editable h3 {
-  margin: 0 0 0.8rem 0;
-  padding: 1.6rem 0 0 0;
+  margin: 0 0 8px 0;
+  padding: 16px 0 0 0;
   color: #000;
-  font-size: 2.5rem;
+  font-size: 25px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .cke_editable h4 {
-  margin: 0 0 0.8rem 0;
-  padding: 1.6rem 0 0 0;
+  margin: 0 0 8px 0;
+  padding: 16px 0 0 0;
   color: #000;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .cke_editable h5 {
-  margin: 0 0 0.8rem 0;
-  padding: 1.6rem 0 0 0;
+  margin: 0 0 8px 0;
+  padding: 16px 0 0 0;
   color: #000;
-  font-size: 1.8rem;
+  font-size: 18px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .cke_editable h6 {
-  margin: 0 0 0.8rem 0;
-  padding: 1.6rem 0 0 0;
-  font-size: 1.6rem;
+  margin: 0 0 8px 0;
+  padding: 16px 0 0 0;
+  font-size: 16px;
   font-weight: bold;
   line-height: 1.1;
 }
@@ -566,7 +566,7 @@
   background: #000;
 }
 
-@media (max-width: 45rem) {
+@media (max-width: 450px) {
   .cke_editable video {
     width: 100% !important;
   }
@@ -585,19 +585,19 @@
   background: #000;
 }
 
-@media (max-width: 45rem) {
+@media (max-width: 450px) {
   .ck-editor audio {
     width: 100% !important;
   }
 }
 
 .ck-editor blockquote {
-  margin: 0 0 1.6rem 0;
+  margin: 0 0 16px 0;
 }
 
 .ck-editor blockquote p {
   margin: 0;
-  padding: 1.5rem;
+  padding: 15px;
   background: oklch(55.2% 0.016 285.938deg);
 }
 
@@ -623,25 +623,25 @@
 
 .ck-editor body {
   color: oklch(27.4% 0.006 286.033deg);
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 
 .ck-editor input,
 .ck-editor select,
 .ck-editor textarea {
   width: 100%;
-  height: 4rem;
-  padding: 0 1.3rem 0 1.3rem;
+  height: 40px;
+  padding: 0 13px 0 13px;
   transition: 0.18s ease-out;
   vertical-align: bottom;
   color: #595959;
-  border: 0.1rem solid #d1d1d1;
-  border-radius: 0.4rem;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
   outline: none;
   background: #fff;
-  box-shadow: inset 0.1rem 0.2rem 0.8rem rgba(0, 0, 0, 0.07);
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
   font-family: inherit;
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -661,10 +661,10 @@
 .ck-editor input[type=file] {
   width: auto;
   height: auto;
-  padding: 1rem;
+  padding: 10px;
 }
 
-@media (max-width: 63.9rem) {
+@media (max-width: 639px) {
   .ck-editor input[type=file] {
     width: 100%;
   }
@@ -675,14 +675,14 @@
   width: auto;
   cursor: pointer;
   color: #fff;
-  border: 0.1rem solid transparent;
+  border: 1px solid transparent;
   background: oklch(50.5% 0.213 27.518deg);
 }
 
 .ck-editor input:hover,
 .ck-editor select:hover,
 .ck-editor textarea:hover {
-  box-shadow: inset 0.1rem 0.2rem 0.8rem rgba(0, 0, 0, 0.02);
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
 }
 
 .ck-editor input[type=reset]:hover,
@@ -694,14 +694,14 @@
 .ck-editor textarea:focus,
 .ck-editor select:focus {
   color: #000;
-  border: 0.1rem solid #b8b6b6;
-  box-shadow: inset 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.01), 0 0 0.8rem rgba(0, 0, 0, 0.2);
+  border: 1px solid #b8b6b6;
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 .ck-editor hr {
   clear: both;
-  margin: 1.6rem 0;
-  border: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  margin: 16px 0;
+  border: 1px solid oklch(27.4% 0.006 286.033deg);
 }
 
 .ck-editor html {
@@ -737,79 +737,79 @@
 }
 
 .ck-editor ul {
-  margin: 0 0 1.6rem 0;
-  padding: 0.2rem 0 0.2rem 1.5rem;
+  margin: 0 0 16px 0;
+  padding: 2px 0 2px 15px;
 }
 
 .ck-editor ul li {
-  margin: 0.6rem 0 0.6rem 0;
+  margin: 6px 0 6px 0;
   list-style-position: outside;
   line-height: 1.5;
 }
 
 .ck-editor ul ul {
   margin: 0;
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 20px;
 }
 
 .ck-editor ol {
-  margin: 0 0 1.6rem 0;
-  padding: 0.2rem 0 0.2rem 1.5rem;
+  margin: 0 0 16px 0;
+  padding: 2px 0 2px 15px;
 }
 
 .ck-editor ol li {
-  margin: 0.6rem 0 0.6rem 0;
+  margin: 6px 0 6px 0;
   list-style-position: outside;
   line-height: 1.5;
 }
 
 .ck-editor ol ol {
   margin: 0;
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 20px;
 }
 
 .ck-editor p {
-  margin: 0 0 1.6rem 0;
-  font-size: 1.6rem;
+  margin: 0 0 16px 0;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .ck-editor table {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
   border-collapse: collapse;
-  border-top: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-top: 1px solid oklch(27.4% 0.006 286.033deg);
   border-right: 0;
   border-bottom: 0;
-  border-left: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-left: 1px solid oklch(27.4% 0.006 286.033deg);
 }
 
 .ck-editor caption {
-  padding: 1rem 1.5rem;
+  padding: 10px 15px;
   text-align: left;
-  border-top: 0.1rem solid oklch(27.4% 0.006 286.033deg);
-  border-right: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-top: 1px solid oklch(27.4% 0.006 286.033deg);
+  border-right: 1px solid oklch(27.4% 0.006 286.033deg);
   border-bottom: 0;
-  border-left: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-left: 1px solid oklch(27.4% 0.006 286.033deg);
   font-weight: bold;
 }
 
 .ck-editor th {
-  padding: 1rem 1.5rem;
+  padding: 10px 15px;
   text-align: left;
   border-top: 0;
-  border-right: 0.1rem solid oklch(27.4% 0.006 286.033deg);
-  border-bottom: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-right: 1px solid oklch(27.4% 0.006 286.033deg);
+  border-bottom: 1px solid oklch(27.4% 0.006 286.033deg);
   border-left: 0;
   background: oklch(55.2% 0.016 285.938deg);
   font-weight: bold;
 }
 
 .ck-editor td {
-  padding: 1rem 1.5rem;
+  padding: 10px 15px;
   border-top: 0;
-  border-right: 0.1rem solid oklch(27.4% 0.006 286.033deg);
-  border-bottom: 0.1rem solid oklch(27.4% 0.006 286.033deg);
+  border-right: 1px solid oklch(27.4% 0.006 286.033deg);
+  border-bottom: 1px solid oklch(27.4% 0.006 286.033deg);
   border-left: 0;
 }
 
@@ -830,63 +830,63 @@
 .ck-editor h1 {
   margin: 0;
   padding: 0;
-  font-size: 6rem;
+  font-size: 60px;
   font-weight: 600;
   line-height: 1.1;
 }
 
-@media (max-width: 63.9rem) {
+@media (max-width: 639px) {
   .ck-editor h1 {
-    font-size: 4.8rem;
+    font-size: 48px;
   }
 }
 
 .ck-editor h2 {
-  margin: 0 0 0.8rem 0;
-  padding: 1.6rem 0 0 0;
+  margin: 0 0 8px 0;
+  padding: 16px 0 0 0;
   color: oklch(50.5% 0.213 27.518deg);
-  font-size: 3.4rem;
+  font-size: 34px;
   font-weight: normal;
   line-height: 1.1;
 }
 
-@media (max-width: 63.9rem) {
+@media (max-width: 639px) {
   .ck-editor h2 {
-    font-size: 2.8rem;
+    font-size: 28px;
   }
 }
 
 .ck-editor h3 {
-  margin: 0 0 0.8rem 0;
-  padding: 1.6rem 0 0 0;
+  margin: 0 0 8px 0;
+  padding: 16px 0 0 0;
   color: #000;
-  font-size: 2.5rem;
+  font-size: 25px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .ck-editor h4 {
-  margin: 0 0 0.8rem 0;
-  padding: 1.6rem 0 0 0;
+  margin: 0 0 8px 0;
+  padding: 16px 0 0 0;
   color: #000;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .ck-editor h5 {
-  margin: 0 0 0.8rem 0;
-  padding: 1.6rem 0 0 0;
+  margin: 0 0 8px 0;
+  padding: 16px 0 0 0;
   color: #000;
-  font-size: 1.8rem;
+  font-size: 18px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .ck-editor h6 {
-  margin: 0 0 0.8rem 0;
-  padding: 1.6rem 0 0 0;
-  font-size: 1.6rem;
+  margin: 0 0 8px 0;
+  padding: 16px 0 0 0;
+  font-size: 16px;
   font-weight: bold;
   line-height: 1.1;
 }
@@ -895,7 +895,7 @@
   background: #000;
 }
 
-@media (max-width: 45rem) {
+@media (max-width: 450px) {
   .ck-editor video {
     width: 100% !important;
   }

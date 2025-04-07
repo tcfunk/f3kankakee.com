@@ -22,7 +22,7 @@ $screen-lg-min: 82rem;
 
 $screen-xs-max: ($screen-sm-min - 0.1rem);
 $screen-sm-max: ($screen-md-min - 0.1rem);
-$screen-md-max: ($screen-lg-min - 0.1rem); 
+$screen-md-max: ($screen-lg-min - 0.1rem);
 
 // TYPO
 $h1-font-size: 6rem;
@@ -50,6 +50,13 @@ $navbar-height: 8rem;
 // HEADER
 $header-background: transparent;
 $header-text: $gray-2;
+
+// SPACING
+$space-xs: 0.5rem;
+$space-sm: 1rem;
+$space-md: 2rem;
+$space-lg: 4rem;
+$space-xl: 8rem;
 
 // MENU
 $menu-background: transparent;

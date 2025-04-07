@@ -12,7 +12,6 @@
     padding: 0;
     text-align: center;
     border: 0;
-    border-left: 0.1rem solid #eee;
     background: none;
 
     span.icon-menu-1,
@@ -25,7 +24,7 @@
       height: 0.4rem;
       margin: 0.6rem auto;
       border-radius: 0.2rem;
-      background: #000;
+      background: $white;
     }
 
     span.icon-menu-1,
