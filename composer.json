@@ -39,6 +39,7 @@
         "drupal/paragraphs": "^1.19",
         "drupal/project_browser": "^2-alpha7",
         "drupal/radix": "^6.0",
+        "drupal/shield": "^1.8",
         "drupal/webform": "^6.3-beta",
         "drush/drush": "^13"
     },

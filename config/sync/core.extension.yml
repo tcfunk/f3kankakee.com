@@ -98,6 +98,7 @@ module:
   search_api_autocomplete: 0
   search_api_db: 0
   search_api_exclude: 0
+  shield: 0
   simple_search_form: 0
   smart_date: 0
   svg_image: 0

@@ -51,3 +51,5 @@ $settings['skip_permissions_hardening'] = TRUE;
 $settings['cache']['bins']['render'] = 'cache.backend.null';
 $settings['cache']['bins']['page'] = 'cache.backend.null';
 $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
+
+$config['shield.settings']['shield_enable'] = FALSE;

@@ -1,0 +1,22 @@
+_core:
+  default_config_hash: FLJZME3II5fjmMSrdEvJHp95ZJf8V_X0jbX0VdVU1BU
+shield_enable: false
+credential_provider: shield
+credentials:
+  shield:
+    user: 'f3k3'
+    pass: 'syitg'
+  key:
+    user: 'f3k3'
+    pass_key: 'syitg'
+  multikey:
+    user_pass_key: 'f3k3:syitg'
+print: Hello!
+debug_header: false
+allowlist: ''
+domains: ''
+method: 0
+paths: ''
+http_method_allowlist: {  }
+allow_cli: true
+unset_basic_auth_headers: true
