@@ -52,8 +52,8 @@ jobs:
           path: .
       - uses: contention/rsync-deployments@v2.0.0
         with:
-          USER: ${{ variables.DEPLOY_USER }}
-          HOST: ${{ variables.DEPLOY_HOST }}
+          USER: ${{ vars.DEPLOY_USER }}
+          HOST: ${{ vars.DEPLOY_HOST }}
           LOCALPATH: .
-          REMOTEPATH: ${{ variables.DEPLOY_PATH }}
+          REMOTEPATH: ${{ vars.DEPLOY_PATH }}
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
