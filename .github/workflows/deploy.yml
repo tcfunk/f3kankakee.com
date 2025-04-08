@@ -1,55 +1,34 @@
 name: Build and Deploy
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
 permissions:
   contents: read
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Validate composer.json and composer.lock
-      run: composer validate --strict
-
-    - name: Cache Composer packages
-      id: composer-cache
-      uses: actions/cache@v3
-      with:
-        path: vendor
-        key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-php-
-
-    - name: Install dependencies
-      run: |
-        composer install --prefer-dist --no-progress
-
-    - name: Upload artifact for deployment job
-      uses: actions/upload-artifact@v4
-      with:
-        name: php-app
-        path: .
-
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/download-artifact@v4
+
+      - name: Download artifact from previous build
+        uses: actions/download-artifact@v4
         with:
           name: php-app
           path: .
-      - uses: contention/rsync-deployments@v2.0.0
+
+      - name: Deploy to Staging server
+        uses: easingthemes/ssh-deploy@main
         with:
-          USER: ${{ vars.DEPLOY_USER }}
-          HOST: ${{ vars.DEPLOY_HOST }}
-          LOCALPATH: .
-          REMOTEPATH: ${{ vars.DEPLOY_PATH }}
-          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+          ARGS: "-rlgoDzvc -i"
+          SOURCE: "."
+          REMOTE_HOST: ${{ vars.DEPLOY_HOST }}
+          REMOTE_USER: ${{ vars.DEPLOY_USER }}
+          TARGET: ${{ vars.DEPLOY_PATH }}
+          EXCLUDE: "vendor, .git"
+          SCRIPT_BEFORE: |
+            whoami
+            ls -al
+          SCRIPT_AFTER: |
+            cd ${{ vars.DEPLOY_PATH }}
+            composer install --prefer-dist --no-progress
+            ./vendor/bin/drush deploy
