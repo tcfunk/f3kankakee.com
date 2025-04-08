@@ -43,5 +43,17 @@ jobs:
         name: php-app
         path: .
 
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
-    # Docs: https://getcomposer.org/doc/articles/scripts.md
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: php-app
+          path: .
+      - uses: contention/rsync-deployments@v2.0.0
+        with:
+          USER: ${{ variables.DEPLOY_USER }}
+          HOST: ${{ variables.DEPLOY_HOST }}
+          LOCALPATH: .
+          REMOTEPATH: ${{ variables.DEPLOY_PATH }}
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
