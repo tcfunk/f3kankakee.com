@@ -1,0 +1,23 @@
+name: f3k3tw
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - f3k3tw/global-styling
+  - f3k3tw/base
+  - f3k3tw/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - f3k3tw/user
+  core/drupal.dropbutton:
+    - f3k3tw/dropbutton
+  core/drupal.dialog:
+    - f3k3tw/dialog
+  file/drupal.file:
+    - f3k3tw/file
+  core/drupal.progress:
+    - f3k3tw/progress
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.1.6'
