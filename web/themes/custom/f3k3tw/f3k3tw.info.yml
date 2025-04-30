@@ -2,6 +2,19 @@ name: f3k3tw
 type: theme
 'base theme': stable9
 version: 1.0.0
+
+regions:
+  primary_menu: 'Primary Nav'
+  secondary_menu: 'Secondary Nav'
+  hero: 'Hero'
+  title: 'Title'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
+  footer_secondary: 'Secondary Footer'
+
 libraries:
   - f3k3tw/global-styling
   - f3k3tw/base

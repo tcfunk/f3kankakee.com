@@ -16,3 +16,4 @@ launch-drupal-cms.sh
 environments/environment.inc
 private
 .env
+web/themes/custom/f3k3tw/node_modules
