@@ -1,3 +1,18 @@
 {% import "menu.html.twig" as menus %}
 
-{{ menus.menu_links(items, attributes.addClass(['flex']), 0) }}
+{% set link_classes = [
+  'px-8',
+  'text-center',
+  'text-lg/12',
+  'block',
+  'border-b-1',
+  'border-transparent',
+  'bg-stone-900',
+  'hover:bg-stone-700',
+  'hover:inset-ring',
+  'hover:inset-ring-stone-300/50',
+  'rounded-md',
+  'transition-colors',
+] %}
+
+{{ menus.menu_links(items, attributes.addClass(['flex']), [], link_classes, 0) }}
