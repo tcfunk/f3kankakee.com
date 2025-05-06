@@ -10,15 +10,20 @@
     'block',
     'block-' ~ configuration.provider|clean_class,
     'block-' ~ plugin_id|clean_class,
+    'position-relative',
+    'overflow-hidden',
+    'text-center',
+    'hero',
   ]
 %}
 <div{{ attributes.addClass(classes) }}>
-  {{ content.background_image }}
+  {{ background_image }}
 
-  <div class="hero-content container">
-    {% block content %}
-      {{ content|without('background_image') }}
-    {% endblock %}
+  <div class="hero__content col-md-5 p-lg-5 mx-auto my-5">
+    {{ title_prefix }}
+    <h1 class="hero__title display-4 font-weight-normal">{{ title }}</h1>
+    {{ title_suffix }}
+    {{ content }}
   </div>
 </div>
 

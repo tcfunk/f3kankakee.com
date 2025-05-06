@@ -5,14 +5,15 @@
   'text-center',
   'text-lg/12',
   'block',
-  'border-b-1',
-  'border-transparent',
   'bg-stone-900',
-  'hover:bg-stone-700',
   'hover:inset-ring',
   'hover:inset-ring-stone-300/50',
   'rounded-md',
   'transition-colors',
 ] %}
 
-{{ menus.menu_links(items, attributes.addClass(['flex']), [], link_classes, 0) }}
+{% set item_classes = [
+  'px-4',
+] %}
+
+{{ menus.menu_links(items, attributes.addClass(['flex']), item_classes, link_classes, 0) }}

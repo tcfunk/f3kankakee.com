@@ -1,1 +1,7 @@
 @import "../../src/scss/init";
+
+.layout__region {
+  &--top {
+    text-align: center;
+  }
+}

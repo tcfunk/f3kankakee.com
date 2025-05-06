@@ -191,4 +191,36 @@
   --bs-form-invalid-border-color: rgb(234, 133.8, 143.4);
 }
 
+.nav .nav-item .nav-link {
+  font-family: "Staatliches", cursive;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #212529;
+}
+.nav .nav-item .nav-link:hover {
+  color: #495057;
+}
+.nav .nav-item .nav-link.active {
+  color: #0d6efd;
+}
+
+.navbar-dark .nav .nav-item {
+  margin: 0 1rem;
+}
+.navbar-dark .nav .nav-link {
+  color: #f8f9fa;
+  padding: 0.5rem 0.5rem;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0 0 2px 0;
+}
+.navbar-dark .nav .nav-link:hover {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.navbar-dark .nav .nav-link.active {
+  color: #f8f9fa;
+  border-color: rgb(176, 42.4, 55.2);
+}
+
 /*# sourceMappingURL=nav.css.map*/

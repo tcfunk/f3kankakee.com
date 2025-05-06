@@ -5,6 +5,9 @@
  */
 #}
 {% set page_attributes = attributes ?: create_attribute() %}
+{% if main_utility_classes is null %}
+  {% set main_utility_classes = ['py-5'] %}
+{% endif %}
 {% set
   page_classes = [
     'page',
@@ -17,8 +20,8 @@
 	{% endblock %}
 
   {% block page_content %}
-    {% include 'radix:page-content' with {
-      page_main_utility_classes: ['py-5'],
+    {% include 'f3k3_radix:page-content' with {
+      page_main_utility_classes: main_utility_classes,
       page_header_container_utility_classes: ['mb-3'],
     }%}
   {% endblock %}

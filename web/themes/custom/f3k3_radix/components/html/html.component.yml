@@ -2,6 +2,7 @@ $schema: https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc
 name: HTML Document
 status: experimental
 description: 'This provides structure for an entire HTML document, from DOCTYPE declaration to closing HTML tag.'
+replaces: 'radix:html'
 props:
   type: object
   properties:

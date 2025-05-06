@@ -1,1 +1,27 @@
 @import "../../src/scss/init";
+
+.hero {
+  img {
+    filter: brightness(0.5) saturate(0.5);
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .hero__content {
+    color: $gray-100;
+
+    h1 {
+      font-family: 'Saira Stencil One', cursive;
+    }
+
+    h2, h3 {
+      font-family: 'Staatliches', cursive;
+    }
+  }
+}

@@ -3,6 +3,8 @@
 
 @theme {
   --font-display: "Saira Stencil One", "sans-serif";
+  --font-serif: "Staatliches", "sans-serif";
+  --font-sans: "Wix Madefor Text", "sans-serif";
 }
 
 @utility container {

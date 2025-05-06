@@ -1,0 +1,18 @@
+{% embed 'f3k3_radix:card' with {
+  card_image_overlays: false
+} %}
+
+  {% block slot_card_image_top %}
+    {{ content.field_logo }}
+  {% endblock %}
+
+  {% block slot_card_body %}
+    {{ label }}
+    {% include 'f3k3_radix:address' with {
+      address_content: content.field_address,
+      latlng: content.field_geolocation,
+    } %}
+    {{ content.field_content }}
+  {% endblock %}
+
+{% endembed %}

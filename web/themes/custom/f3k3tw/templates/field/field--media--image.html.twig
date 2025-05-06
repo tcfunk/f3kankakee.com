@@ -1,0 +1,15 @@
+{% set extra_classes = [
+  'absolute',
+  'left-0',
+  'top-0',
+  'w-full',
+  'h-full',
+  '[&_img]:w-full',
+  '[&_img]:h-full',
+  '[&_img]:object-cover',
+  '[&_img]:brightness-50',
+]|join(' ') %}
+
+{% for item in items %}
+  <div{{ item.attributes.addClass(extra_classes) }}>{{ item.content }}</div>
+{% endfor %}

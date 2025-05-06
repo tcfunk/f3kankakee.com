@@ -1,0 +1,11 @@
+{#
+/**
+* @file
+* Template for address component.
+*/
+#}
+{% set latlng = latlng|render|striptags|trim %}
+
+<a href="https://www.google.com/maps/place/{{ latlng }}" target="_blank">
+  {{ address_content }}
+</a>

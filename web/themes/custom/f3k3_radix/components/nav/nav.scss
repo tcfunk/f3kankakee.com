@@ -1,1 +1,45 @@
 @import "../../src/scss/init";
+
+.nav {
+  .nav-item {
+    .nav-link {
+      font-family: 'Staatliches', cursive;
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      color: $gray-900;
+
+      &:hover {
+        color: $gray-700;
+      }
+
+      &.active {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.navbar-dark {
+  .nav {
+    .nav-item {
+      margin: 0 1rem;
+    }
+
+    .nav-link {
+      color: $gray-100;
+      padding: 0.5rem 0.5rem;
+      border-style: solid;
+      border-color: transparent;
+      border-width: 0 0 2px 0;
+
+      &:hover {
+        color: $gray-100;
+        border-color: $gray-100;
+      }
+      &.active {
+        color: $gray-100;
+        border-color: $red-600;
+      }
+    }
+  }
+}

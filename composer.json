@@ -35,6 +35,8 @@
         "drupal/drupal_cms_starter": "~1.0.0",
         "drupal/gutenberg": "^3.0",
         "drupal/holy": "^2.0",
+        "drupal/layout_paragraphs": "^2.1",
+        "drupal/nomarkup": "^1.0",
         "drupal/paragraph_blocks": "^4.1",
         "drupal/paragraphs": "^1.19",
         "drupal/project_browser": "^2-alpha7",

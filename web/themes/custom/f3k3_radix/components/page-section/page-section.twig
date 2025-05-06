@@ -1,0 +1,18 @@
+{#
+/**
+* @file
+* Template for page-section component.
+*/
+#}
+
+<section class="page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% block section_content %}
+          {{ content }}
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+</section>
