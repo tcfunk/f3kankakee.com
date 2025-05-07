@@ -1,0 +1,22 @@
+uuid: 18ae58e4-e67b-497c-b357-b67e37d08b37
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - f3k3tw
+_core:
+  default_config_hash: G4iNGvy_k2yNIEH_FJmbkvgBBar1etJIhKJYuygT7hU
+id: f3k3tw_content
+theme: f3k3tw
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

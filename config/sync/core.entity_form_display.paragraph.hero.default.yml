@@ -3,11 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.hero.field_body
     - field.field.paragraph.hero.field_image
     - field.field.paragraph.hero.field_title
     - paragraphs.paragraphs_type.hero
   module:
     - media_library
+    - text
 id: paragraph.hero.default
 targetEntityType: paragraph
 bundle: hero
@@ -19,6 +21,14 @@ content:
     region: content
     settings:
       size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_body:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
   field_image:

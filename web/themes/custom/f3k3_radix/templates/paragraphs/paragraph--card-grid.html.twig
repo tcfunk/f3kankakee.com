@@ -1,1 +1,5 @@
-{% include 'f3k3_radix:page-section' %}
+{% set full_width = content.field_full_width|render|striptags|trim %}
+
+{% include 'f3k3_radix:page-section' with {
+  full_width: full_width,
+} %}

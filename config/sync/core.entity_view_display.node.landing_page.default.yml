@@ -3,22 +3,29 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.landing_page.field_content
+    - field.field.node.landing_page.field_content_blocks
     - node.type.landing_page
   module:
-    - text
+    - layout_paragraphs
+    - nomarkup
     - user
 id: node.landing_page.default
 targetEntityType: node
 bundle: landing_page
 mode: default
 content:
-  field_content:
-    type: text_default
+  field_content_blocks:
+    type: layout_paragraphs
     label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 101
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      nomarkup:
+        enabled: false
+        separator: '|'
+        referenced_entity: ''
+    weight: 102
     region: content
   links:
     settings: {  }

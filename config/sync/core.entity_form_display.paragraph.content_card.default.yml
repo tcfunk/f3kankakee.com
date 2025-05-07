@@ -1,0 +1,33 @@
+uuid: dc8a979b-2827-4867-9e69-ef191fd85986
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_card.field_entity
+    - paragraphs.paragraphs_type.content_card
+id: paragraph.content_card.default
+targetEntityType: paragraph
+bundle: content_card
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_entity:
+    type: entity_reference_autocomplete
+    weight: -9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

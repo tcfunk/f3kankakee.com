@@ -1,0 +1,16 @@
+uuid: 2a6f1d32-24b6-4fc5-8eda-8bf08122105d
+langcode: en
+status: true
+dependencies:
+  module:
+    - layout_paragraphs
+id: card_grid
+label: 'Card Grid'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_threecol_33_34_33: 'Three column 33/34/33'

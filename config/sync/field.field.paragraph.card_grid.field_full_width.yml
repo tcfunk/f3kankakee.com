@@ -1,0 +1,23 @@
+uuid: e7916f52-98bd-4f23-92a4-b9a73dd8560b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_full_width
+    - paragraphs.paragraphs_type.card_grid
+id: paragraph.card_grid.field_full_width
+field_name: field_full_width
+entity_type: paragraph
+bundle: card_grid
+label: 'Full Width'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

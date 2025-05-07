@@ -1,0 +1,11 @@
+@import "../../src/scss/init";
+
+.page-title {
+  &__media {
+    overflow: hidden;
+
+    img {
+      border-radius: 100%;
+    }
+  }
+}

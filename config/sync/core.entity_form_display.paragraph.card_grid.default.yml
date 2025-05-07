@@ -1,0 +1,35 @@
+uuid: 301073ad-8b75-4251-8892-c63cc0b5f369
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_grid.field_full_width
+    - paragraphs.paragraphs_type.card_grid
+id: paragraph.card_grid.default
+targetEntityType: paragraph
+bundle: card_grid
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_full_width:
+    type: boolean_checkbox
+    weight: -9
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  layout_paragraphs_fields:
+    weight: -200
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

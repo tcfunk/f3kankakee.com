@@ -3,29 +3,48 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.hero.field_body
     - field.field.paragraph.hero.field_image
     - field.field.paragraph.hero.field_title
     - paragraphs.paragraphs_type.hero
+  module:
+    - nomarkup
+    - text
 id: paragraph.hero.default
 targetEntityType: paragraph
 bundle: hero
 mode: default
 content:
+  field_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
   field_image:
     type: entity_reference_entity_view
-    label: above
+    label: hidden
     settings:
-      view_mode: default
+      view_mode: hero_wide
       link: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: '0'
     weight: 0
     region: content
   field_title:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
     weight: 1
     region: content
 hidden:

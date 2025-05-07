@@ -6,13 +6,17 @@
 #}
 
 <section class="page-section">
-  <div class="container">
+  {% if not full_width %}
+    <div class="container">
+  {% endif %}
     <div class="row">
       <div class="col-12">
         {% block section_content %}
-          {{ content }}
+          {{ content|without('field_full_width') }}
         {% endblock %}
       </div>
     </div>
-  </div>
+  {% if not full_width %}
+    </div>
+  {% endif %}
 </section>

@@ -1,0 +1,33 @@
+uuid: 67b2f9a9-02f3-4501-86e4-c0f60904cdbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_blocks
+    - node.type.landing_page
+  module:
+    - entity_reference_revisions
+    - paragraph_blocks
+third_party_settings:
+  paragraph_blocks:
+    status: 1
+id: node.landing_page.field_content_blocks
+field_name: field_content_blocks
+entity_type: node
+bundle: landing_page
+label: 'Content Blocks'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      hero:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

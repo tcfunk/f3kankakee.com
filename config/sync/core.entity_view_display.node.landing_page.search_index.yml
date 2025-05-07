@@ -4,27 +4,20 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.search_index
-    - field.field.node.landing_page.field_content
+    - field.field.node.landing_page.field_content_blocks
     - node.type.landing_page
   module:
-    - text
     - user
 id: node.landing_page.search_index
 targetEntityType: node
 bundle: landing_page
 mode: search_index
 content:
-  field_content:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 101
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
 hidden:
+  field_content_blocks: true
   search_api_excerpt: true

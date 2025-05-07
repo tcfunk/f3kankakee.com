@@ -1,2 +1,16 @@
 // Define your custom typography/classes here.
 // -----------------------------------------------------------------------------
+
+main {
+  a {
+    color: $red-600;
+
+  &:hover {
+    color: $red-400;
+  }
+
+    &:visited {
+      color: $red-800;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+uuid: eadee8f0-97d5-48f9-b30d-4ba456e10d23
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - f3k3_radix
+_core:
+  default_config_hash: 5VBXsyvJSTQNtrh86WK8GN_FCaRtK03D1fjfZQnUvtU
+id: f3k3_radix_powered
+theme: f3k3_radix
+region: footer
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

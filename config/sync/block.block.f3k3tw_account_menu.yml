@@ -1,0 +1,27 @@
+uuid: 9124736d-59f4-45b6-8c89-b7068df0955f
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - f3k3tw
+_core:
+  default_config_hash: DxdLrNHPG9b5uQwKs4BJ9R5e8_jtJsQDY8rqliXtd9w
+id: f3k3tw_account_menu
+theme: f3k3tw
+region: secondary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

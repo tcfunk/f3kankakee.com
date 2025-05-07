@@ -1,0 +1,30 @@
+uuid: 154e02b1-557e-4a0a-affe-705e29f46b36
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.page_header
+  module:
+    - system
+    - views
+  theme:
+    - f3k3_radix
+id: f3k3_radix_views_block__page_header_block
+theme: f3k3_radix
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:page_header-block'
+settings:
+  id: 'views_block:page_header-block'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

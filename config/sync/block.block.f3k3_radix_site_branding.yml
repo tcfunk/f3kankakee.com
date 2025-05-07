@@ -1,0 +1,25 @@
+uuid: 94198686-0b02-466b-a6e2-938bdab8e231
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - f3k3_radix
+_core:
+  default_config_hash: MX2iS2rMC2lQ-sUFnOKksJ01S2lh0j5-80hKkdDmHkI
+id: f3k3_radix_site_branding
+theme: f3k3_radix
+region: navbar_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

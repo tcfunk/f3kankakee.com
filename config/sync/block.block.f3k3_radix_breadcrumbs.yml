@@ -1,0 +1,22 @@
+uuid: cd6c1726-d860-427c-976c-1d33f4338c06
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - f3k3_radix
+_core:
+  default_config_hash: rUKMsaj4XvIHtU3kRiHIA6Rkn4IHzCkhTiUZudMkp14
+id: f3k3_radix_breadcrumbs
+theme: f3k3_radix
+region: content
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

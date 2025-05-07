@@ -1,0 +1,22 @@
+uuid: bcc811d2-53ff-419e-9509-283882892e3b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - f3k3tw
+_core:
+  default_config_hash: rUKMsaj4XvIHtU3kRiHIA6Rkn4IHzCkhTiUZudMkp14
+id: f3k3tw_breadcrumbs
+theme: f3k3tw
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

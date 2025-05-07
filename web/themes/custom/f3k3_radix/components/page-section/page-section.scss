@@ -2,4 +2,22 @@
 
 .page-section {
   background-color: $red-700;
+  padding: 3rem 0;
+
+.layout {
+    &--threecol-33-34-33 {
+      .layout__region {
+        &--second {
+          flex: 0 0 33%;
+        }
+      }
+    }
+  }
+}
+
+.layout__region {
+  .heading {
+    color: $gray-100;
+    font-size: 2.5rem;
+  }
 }

@@ -1,0 +1,29 @@
+uuid: 5b55d178-fa48-4636-a12f-7934bf5ee7b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_card.field_entity
+    - paragraphs.paragraphs_type.content_card
+  module:
+    - nomarkup
+id: paragraph.content_card.default
+targetEntityType: paragraph
+bundle: content_card
+mode: default
+content:
+  field_entity:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: card
+      link: false
+    third_party_settings:
+      nomarkup:
+        enabled: false
+        separator: '|'
+        referenced_entity: '0'
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

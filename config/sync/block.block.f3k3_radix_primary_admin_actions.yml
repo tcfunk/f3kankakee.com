@@ -1,0 +1,20 @@
+uuid: f83e1a36-96ea-4947-8ec2-697807da7fce
+langcode: en
+status: true
+dependencies:
+  theme:
+    - f3k3_radix
+_core:
+  default_config_hash: bXIY_bcTLD1-0gwNQhWPHANNy6hQa_RxJgvHxKhNS2E
+id: f3k3_radix_primary_admin_actions
+theme: f3k3_radix
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

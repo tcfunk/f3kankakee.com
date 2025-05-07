@@ -1,0 +1,27 @@
+uuid: 379671d7-78d4-4347-b587-3f7e8884815b
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - f3k3_radix
+_core:
+  default_config_hash: DxdLrNHPG9b5uQwKs4BJ9R5e8_jtJsQDY8rqliXtd9w
+id: f3k3_radix_account_menu
+theme: f3k3_radix
+region: footer
+weight: -3
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

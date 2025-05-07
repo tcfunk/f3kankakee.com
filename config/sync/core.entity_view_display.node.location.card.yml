@@ -1,0 +1,72 @@
+uuid: 1e1430df-068e-4195-8261-5cd92fe8ff86
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.location.field_address
+    - field.field.node.location.field_content
+    - field.field.node.location.field_geolocation
+    - field.field.node.location.field_logo
+    - node.type.location
+  module:
+    - address
+    - geofield
+    - nomarkup
+    - text
+    - user
+id: node.location.card
+targetEntityType: node
+bundle: location
+mode: card
+content:
+  field_address:
+    type: address_default
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 1
+    region: content
+  field_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_geolocation:
+    type: geofield_latlon
+    label: hidden
+    settings:
+      output_format: decimal
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 3
+    region: content
+  field_logo:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: 1_1_square_medium
+      link: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: '0'
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  search_api_excerpt: true

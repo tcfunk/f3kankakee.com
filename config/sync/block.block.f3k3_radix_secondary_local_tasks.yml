@@ -1,0 +1,22 @@
+uuid: d27c4402-9972-4dda-9179-3cc536e3094f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - f3k3_radix
+_core:
+  default_config_hash: 3KAyDgB3FHENrBwroAUcCPvkfPHBMFcRDnsZFyFMuwc
+id: f3k3_radix_secondary_local_tasks
+theme: f3k3_radix
+region: content
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

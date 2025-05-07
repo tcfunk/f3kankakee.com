@@ -1,0 +1,28 @@
+uuid: 988a6493-6c02-4ab3-aebd-405f2d865670
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.heading.field_title
+    - paragraphs.paragraphs_type.heading
+  module:
+    - nomarkup
+id: paragraph.heading.default
+targetEntityType: paragraph
+bundle: heading
+mode: default
+content:
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

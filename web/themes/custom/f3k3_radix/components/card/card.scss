@@ -1,1 +1,26 @@
 @import "../../src/scss/init";
+.layout {
+  .card {
+    margin: 1rem;
+    border-radius: var(--bs-border-radius-lg);
+
+    .media,
+    img {
+      border-top-left-radius: var(--bs-border-radius-lg);
+      border-top-right-radius: var(--bs-border-radius-lg);
+    }
+
+    .card-title.heading {
+      font-family: 'Staatliches', cursive;
+      font-size: 2rem;
+      color: $gray-900;
+    }
+  }
+}
+
+.card-text {
+}
+
+.card-title-link {
+  text-decoration: none;
+}

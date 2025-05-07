@@ -1,0 +1,22 @@
+uuid: a8e518be-6864-48a4-bcd7-01864ce0070e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - f3k3_radix
+_core:
+  default_config_hash: G4iNGvy_k2yNIEH_FJmbkvgBBar1etJIhKJYuygT7hU
+id: f3k3_radix_content
+theme: f3k3_radix
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

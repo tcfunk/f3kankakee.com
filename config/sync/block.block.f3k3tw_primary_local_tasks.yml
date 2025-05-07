@@ -1,0 +1,22 @@
+uuid: 9fbf1bbe-a773-4c57-b67d-48178a3e9047
+langcode: en
+status: true
+dependencies:
+  theme:
+    - f3k3tw
+_core:
+  default_config_hash: A_KsAw1fyIvdBubmxkvtCtoSuV62cVV-p0RSPnvqc9U
+id: f3k3tw_primary_local_tasks
+theme: f3k3tw
+region: highlighted
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

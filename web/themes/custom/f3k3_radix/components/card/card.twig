@@ -135,6 +135,9 @@
     {% block slot_card_body %}
       {{ card_title_prefix }}
       {% if card_title %}
+        {% if card_link_url %}
+          <a href="{{ card_link_url }}" class="card-title-link">
+        {% endif %}
         {%
           include 'radix:heading' with {
             heading_html_tag: card_title_tag,
@@ -143,6 +146,9 @@
             heading_utility_classes: card_title_classes
           }
         %}
+        {% if card_link_url %}
+          </a>
+        {% endif %}
       {% endif %}
       {{ card_title_suffix }}
 
@@ -156,6 +162,7 @@
         </{{card_text_tag}}>
       {% endif %}
 
+      {#
       {% if card_link_url %}
         {%
           include 'radix:button' with {
@@ -166,6 +173,7 @@
           }
         %}
       {% endif %}
+      #}
     {% endblock %}
     {% block slot_card_links %}{% endblock %}
   </{{card_body_tag}}>
