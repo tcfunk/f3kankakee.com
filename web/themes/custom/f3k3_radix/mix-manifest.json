@@ -8,6 +8,7 @@
     "/components/field/field.css": "/components/field/field.css",
     "/components/card/card.css": "/components/card/card.css",
     "/components/address/address.css": "/components/address/address.css",
+    "/components/views-view--unformatted/views-view--unformatted.css": "/components/views-view--unformatted/views-view--unformatted.css",
     "/components/region/region.css": "/components/region/region.css",
     "/components/page/page.css": "/components/page/page.css",
     "/components/page-title/page-title.css": "/components/page-title/page-title.css",
