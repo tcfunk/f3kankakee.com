@@ -193,7 +193,23 @@
 
 .page__header .media img {
   border-radius: 100%;
-  max-height: 10rem;
+  max-width: 12rem;
+  aspect-ratio: 1/1;
+}
+.page__header .views-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+.page__header .views-row > * {
+  padding: 1rem;
+}
+.page__header .heading {
+  font-family: "Saira Stencil One", cursive;
+  text-transform: uppercase;
+  color: #f8f9fa;
 }
 
 /*# sourceMappingURL=views-view--unformatted.css.map*/
