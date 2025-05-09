@@ -6,11 +6,13 @@ dependencies:
     - field.field.node.location.field_address
     - field.field.node.location.field_content
     - field.field.node.location.field_geolocation
+    - field.field.node.location.field_location_description
     - field.field.node.location.field_logo
     - node.type.location
   module:
     - address
     - layout_builder
+    - layout_discovery
     - leaflet
     - nomarkup
     - text
@@ -175,6 +177,21 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 3
             additional: {  }
+          b806b511-557d-49f8-a347-dd144fa1e14b:
+            uuid: b806b511-557d-49f8-a347-dd144fa1e14b
+            region: content
+            configuration:
+              id: 'field_block:node:location:field_location_description'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: basic_string
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
         third_party_settings: {  }
 id: node.location.default
 targetEntityType: node
@@ -296,6 +313,13 @@ content:
         separator: '|'
         referenced_entity: ''
     weight: 1
+    region: content
+  field_location_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
     region: content
   links:
     settings: {  }

@@ -1,0 +1,19 @@
+uuid: b0a704b0-2348-4548-9505-63f5b4057ef7
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - smart_date
+id: paragraph.field_time
+field_name: field_time
+entity_type: paragraph
+type: smartdate
+settings: {  }
+module: smart_date
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

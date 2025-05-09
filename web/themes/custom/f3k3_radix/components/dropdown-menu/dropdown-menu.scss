@@ -1,0 +1,42 @@
+@import "../../src/scss/init";
+
+.navbar .dropdown-menu {
+    border-radius: 0;
+    background-color: $gray-900;
+    padding: 0;
+
+    .dropdown-item {
+        color: $gray-100;
+        font-family: 'Staatliches', sans-serif;
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+        position: relative;
+
+        &.active { 
+            background-color: $gray-900;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 4px;
+                bottom: 4px;
+                left: 4px;
+                border: 2px solid $red-600;
+            }
+        }
+
+        &:hover {
+            background-color: $gray-900;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 4px;
+                bottom: 4px;
+                left: 4px;
+                border: 2px solid $gray-100;
+            }
+        }
+
+    }
+}

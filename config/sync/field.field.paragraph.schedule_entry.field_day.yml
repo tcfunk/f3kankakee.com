@@ -1,0 +1,21 @@
+uuid: c6ca37a4-270d-423f-a507-d9445780eec6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_day
+    - paragraphs.paragraphs_type.schedule_entry
+  module:
+    - options
+id: paragraph.schedule_entry.field_day
+field_name: field_day
+entity_type: paragraph
+bundle: schedule_entry
+label: 'Day of the Week'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

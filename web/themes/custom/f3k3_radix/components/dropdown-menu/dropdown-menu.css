@@ -191,30 +191,39 @@
   --bs-form-invalid-border-color: rgb(234, 133.8, 143.4);
 }
 
-.page__header .media img {
-  border-radius: 100%;
-  max-width: 12rem;
-  aspect-ratio: 1/1;
+.navbar .dropdown-menu {
+  border-radius: 0;
+  background-color: #212529;
+  padding: 0;
 }
-.page__header .views-row {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 0;
-}
-@media (min-width: 576px) {
-  .page__header .views-row {
-    flex-direction: row;
-  }
-}
-.page__header .views-row > * {
-  padding: 1rem;
-}
-.page__header .heading {
-  font-family: "Saira Stencil One", cursive;
-  text-transform: uppercase;
+.navbar .dropdown-menu .dropdown-item {
   color: #f8f9fa;
+  font-family: "Staatliches", sans-serif;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  position: relative;
+}
+.navbar .dropdown-menu .dropdown-item.active {
+  background-color: #212529;
+}
+.navbar .dropdown-menu .dropdown-item.active::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  border: 2px solid rgb(176, 42.4, 55.2);
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #212529;
+}
+.navbar .dropdown-menu .dropdown-item:hover::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  border: 2px solid #f8f9fa;
 }
 
-/*# sourceMappingURL=views-view--unformatted.css.map*/
+/*# sourceMappingURL=dropdown-menu.css.map*/

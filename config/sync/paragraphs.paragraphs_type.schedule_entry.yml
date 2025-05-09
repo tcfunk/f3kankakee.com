@@ -1,0 +1,10 @@
+uuid: 3a581795-b7a5-42a0-ad3d-a7e3a21b31ec
+langcode: en
+status: true
+dependencies: {  }
+id: schedule_entry
+label: 'Schedule Entry'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

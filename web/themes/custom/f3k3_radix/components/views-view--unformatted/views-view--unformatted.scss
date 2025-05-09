@@ -11,10 +11,14 @@
 
   .views-row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
+
+    @include media-breakpoint-up(sm) {
+      flex-direction: row;
+    }
 
     > * {
       padding: 1rem;

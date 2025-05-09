@@ -4,8 +4,8 @@
     "/components/hero/hero.js": "/components/hero/hero.js",
     "/components/page-section/page-section.js": "/components/page-section/page-section.js",
     "/build/css/main.style.css": "/build/css/main.style.css",
-    "/components/form-element/form-element.css": "/components/form-element/form-element.css",
     "/components/field/field.css": "/components/field/field.css",
+    "/components/dropdown-menu/dropdown-menu.css": "/components/dropdown-menu/dropdown-menu.css",
     "/components/card/card.css": "/components/card/card.css",
     "/components/address/address.css": "/components/address/address.css",
     "/components/views-view--unformatted/views-view--unformatted.css": "/components/views-view--unformatted/views-view--unformatted.css",
@@ -22,5 +22,6 @@
     "/components/media/media.css": "/components/media/media.css",
     "/components/html/html.css": "/components/html/html.css",
     "/components/hero/hero.css": "/components/hero/hero.css",
-    "/components/heading/heading.css": "/components/heading/heading.css"
+    "/components/heading/heading.css": "/components/heading/heading.css",
+    "/components/form-element/form-element.css": "/components/form-element/form-element.css"
 }
