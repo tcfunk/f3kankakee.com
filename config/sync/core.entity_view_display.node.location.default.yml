@@ -192,6 +192,171 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 4
             additional: {  }
+          e527f39b-fb6e-41f3-a925-ab61e706d5ec:
+            uuid: e527f39b-fb6e-41f3-a925-ab61e706d5ec
+            region: content
+            configuration:
+              id: 'extra_field_block:node:location:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 5
+            additional: {  }
+          b5117088-d515-4693-9fec-23c0fa2a6cca:
+            uuid: b5117088-d515-4693-9fec-23c0fa2a6cca
+            region: content
+            configuration:
+              id: 'field_block:node:location:field_geolocation'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: leaflet_formatter_default
+                label: hidden
+                settings:
+                  multiple_map: false
+                  leaflet_map: 'OSM Mapnik'
+                  height: 400
+                  height_unit: px
+                  hide_empty_map: false
+                  disable_wheel: false
+                  gesture_handling: false
+                  fitbounds_options: '{"padding":[0,0]}'
+                  reset_map:
+                    control: false
+                    options: '{"position":"topleft","title":"Reset View"}'
+                  map_scale:
+                    control: false
+                    options: '{"position":"bottomright","maxWidth":100,"metric":true,"imperial":false,"updateWhenIdle":false}'
+                  locate:
+                    control: false
+                    options: '{"position":"topright","setView":"untilPanOrZoom","returnToPrevBounds":true,"keepCurrentZoomLevel":true,"strings":{"title":"Locate my position"}}'
+                    automatic: false
+                  leaflet_tooltip:
+                    value: ''
+                    options: '{"permanent":false,"direction":"center"}'
+                  popup: false
+                  popup_content: ''
+                  leaflet_popup:
+                    control: '0'
+                    content: ''
+                    options: '{"maxWidth":"300","minWidth":"50","autoPan":true}'
+                  map_position:
+                    force: false
+                    center:
+                      lat: 0.0
+                      lon: 0.0
+                    zoomControlPosition: topleft
+                    zoom: 15
+                    minZoom: 1
+                    maxZoom: 18
+                    zoomFiner: 0
+                  weight: '0'
+                  icon:
+                    iconType: marker
+                    iconUrl: ''
+                    shadowUrl: ''
+                    className: ''
+                    iconSize:
+                      x: ''
+                      'y': ''
+                    iconAnchor:
+                      x: ''
+                      'y': ''
+                    shadowSize:
+                      x: ''
+                      'y': ''
+                    shadowAnchor:
+                      x: ''
+                      'y': ''
+                    popupAnchor:
+                      x: ''
+                      'y': ''
+                    html: '<div></div>'
+                    html_class: leaflet-map-divicon
+                    circle_marker_options: '{"radius":100,"color":"red","fillColor":"#f03","fillOpacity":0.5}'
+                  leaflet_markercluster:
+                    control: false
+                    options: '{"spiderfyOnMaxZoom":true,"showCoverageOnHover":true,"removeOutsideVisibleBounds": false}'
+                    excluded: ''
+                    include_path: false
+                  fullscreen:
+                    control: false
+                    options: '{"position":"topleft","pseudoFullscreen":false}'
+                  path: '{"color":"#3388ff","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2","radius":"6"}'
+                  feature_properties:
+                    values: ''
+                  geocoder:
+                    control: false
+                    settings:
+                      autocomplete:
+                        placeholder: 'Search Address'
+                        title: 'Search an Address on the Map'
+                      position: topright
+                      input_size: 20
+                      providers:
+                        nominatim:
+                          weight: 0
+                          checked: false
+                      min_terms: 4
+                      delay: 800
+                      zoom: 16
+                      popup: false
+                      options: ''
+                  map_lazy_load:
+                    lazy_load: false
+                third_party_settings:
+                  nomarkup:
+                    enabled: false
+                    separator: '|'
+                    referenced_entity: ''
+            weight: 6
+            additional: {  }
+          99481ab4-366d-41b0-bc98-a20afd76c016:
+            uuid: 99481ab4-366d-41b0-bc98-a20afd76c016
+            region: content
+            configuration:
+              id: 'field_block:node:location:field_address'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: address_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 7
+            additional: {  }
+          070fef69-53e4-42a4-80eb-f18d7da1c4b1:
+            uuid: 070fef69-53e4-42a4-80eb-f18d7da1c4b1
+            region: content
+            configuration:
+              id: 'field_block:node:location:field_content'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 8
+            additional: {  }
+          f8ddd750-c5ea-4ec1-accc-003d4b6c1873:
+            uuid: f8ddd750-c5ea-4ec1-accc-003d4b6c1873
+            region: content
+            configuration:
+              id: 'field_block:node:location:field_location_description'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: basic_string
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 9
+            additional: {  }
         third_party_settings: {  }
 id: node.location.default
 targetEntityType: node
