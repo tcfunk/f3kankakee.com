@@ -1,7 +1,7 @@
 @import "../../src/scss/init";
 
 .hero {
-  img {
+  & > picture > img {
     filter: brightness(0.5) saturate(0.5);
     object-fit: cover;
     object-position: center;
@@ -23,9 +23,9 @@
         font-size: 5rem;
       }
     }
-  }
+  /* } */
 
-  .hero__body {
+  /* .hero__body { */
     h2, h3 {
       font-family: 'Staatliches', cursive;
     }

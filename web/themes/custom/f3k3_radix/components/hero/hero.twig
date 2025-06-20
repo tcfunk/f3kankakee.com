@@ -21,7 +21,9 @@
 
   <div class="hero__content col-md-5 p-lg-5 mx-auto my-5">
     {{ title_prefix }}
+    {% if title %}
     <h1 class="hero__title display-6 font-weight-normal">{{ title }}</h1>
+    {% endif %}
     {{ title_suffix }}
     {% if content %}
     <div class="hero__body">

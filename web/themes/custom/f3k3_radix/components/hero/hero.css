@@ -191,7 +191,7 @@
   --bs-form-invalid-border-color: rgb(234, 133.8, 143.4);
 }
 
-.hero img {
+.hero > picture > img {
   -webkit-filter: brightness(0.5) saturate(0.5);
           filter: brightness(0.5) saturate(0.5);
   -o-object-fit: cover;
@@ -207,6 +207,8 @@
 }
 .hero .hero__content {
   color: #f8f9fa;
+  /* } */
+  /* .hero__body { */
 }
 .hero .hero__content h1 {
   font-family: "Saira Stencil One", cursive;
@@ -216,14 +218,14 @@
     font-size: 5rem;
   }
 }
-.hero .hero__body h2, .hero .hero__body h3 {
+.hero .hero__content h2, .hero .hero__content h3 {
   font-family: "Staatliches", cursive;
 }
 @media (min-width: 768px) {
-  .hero .hero__body h2 {
+  .hero .hero__content h2 {
     font-size: 3rem;
   }
-  .hero .hero__body h3 {
+  .hero .hero__content h3 {
     font-size: 2.5rem;
   }
 }
