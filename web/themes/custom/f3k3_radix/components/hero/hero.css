@@ -211,8 +211,21 @@
 .hero .hero__content h1 {
   font-family: "Saira Stencil One", cursive;
 }
-.hero .hero__content h2, .hero .hero__content h3 {
+@media (min-width: 768px) {
+  .hero .hero__content h1 {
+    font-size: 5rem;
+  }
+}
+.hero .hero__body h2, .hero .hero__body h3 {
   font-family: "Staatliches", cursive;
+}
+@media (min-width: 768px) {
+  .hero .hero__body h2 {
+    font-size: 3rem;
+  }
+  .hero .hero__body h3 {
+    font-size: 2.5rem;
+  }
 }
 
 /*# sourceMappingURL=hero.css.map*/
