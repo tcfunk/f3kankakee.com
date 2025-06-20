@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.page_header
   module:
+    - node
     - system
     - views
   theme:
@@ -28,3 +29,11 @@ visibility:
     id: request_path
     negate: true
     pages: '<front>'
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      location: location
+      page: page
